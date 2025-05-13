@@ -1,5 +1,32 @@
 const flicksBlackComedy = [
   {
+    title: "2001: A Space Odyssey",
+    year: 1968,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/9jstc9o57ehj0kakah21r/2001_SPACE_ODYSSEY.mp4?rlkey=l3573cry4q1pcujctl9iz82z4&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/9jstc9o57ehj0kakah21r/2001_SPACE_ODYSSEY.mp4?rlkey=l3573cry4q1pcujctl9iz82z4&dl=1",
+  },
+  {
+    title: "About Schmidt",
+    year: 2002,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/2kkr40f0dbz8anazoldug/ABOUT_SCHMIDT.mp4?rlkey=ntnc6m5wb9e6pcjtjnhl6si93&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/2kkr40f0dbz8anazoldug/ABOUT_SCHMIDT.mp4?rlkey=ntnc6m5wb9e6pcjtjnhl6si93&dl=1",
+  },
+  {
+    title: "American Beauty",
+    year: 1969,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/gpbsy6ysnrwzc1x0rbe8o/AMERICAN_BEAUTY.mp4?rlkey=pc7t7ugav8pex2r2onwavupm7&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/gpbsy6ysnrwzc1x0rbe8o/AMERICAN_BEAUTY.mp4?rlkey=pc7t7ugav8pex2r2onwavupm7&dl=0",
+  },
+  {
     title: "Truman Show",
     year: 1998,
     genre: "Black Comedy",
