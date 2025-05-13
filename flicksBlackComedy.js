@@ -27,6 +27,15 @@ const flicksBlackComedy = [
       "https://www.dropbox.com/scl/fi/gpbsy6ysnrwzc1x0rbe8o/AMERICAN_BEAUTY.mp4?rlkey=pc7t7ugav8pex2r2onwavupm7&dl=0",
   },
   {
+    title: "American Werewolf in London",
+    year: 1981,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/1c3ljmpji0zonyk1now80/AMERICAN_WEREWOLF_IN_LONDON.mp4?rlkey=wubq2uz3v0c7359zp8o2qoy76&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/1c3ljmpji0zonyk1now80/AMERICAN_WEREWOLF_IN_LONDON.mp4?rlkey=wubq2uz3v0c7359zp8o2qoy76&dl=0",
+  },
+  {
     title: "Truman Show",
     year: 1998,
     genre: "Black Comedy",
