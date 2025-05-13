@@ -1,5 +1,14 @@
 const flicksThriller = [
   {
+    title: "The Boys From Brazil",
+    year: 1978,
+    genre: "Thriller",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/m0hnbokidhr7y31nko51e/BOYS_FROM_BRAZIL.mp4?rlkey=j3gsgmjt8qm1zvazepap6885p&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/m0hnbokidhr7y31nko51e/BOYS_FROM_BRAZIL.mp4?rlkey=j3gsgmjt8qm1zvazepap6885p&dl=1",
+  },
+  {
     title: "Hannibal",
     year: 2001,
     genre: "Thriller",
