@@ -1,3 +1,5 @@
+const movies = [...flicksHorror, ...flicksBlackComedy, ...flicksThriller];
+
 let isSingleView = false;
 let currentMovie = null;
 

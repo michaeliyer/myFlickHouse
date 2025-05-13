@@ -1,4 +1,13 @@
-const movies = [
+const flicksHorror = [
+  {
+    title: "Trilogy of Terror",
+    year: 1975,
+    genre: "Horror",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/t0dwl3qeytr9l7wqyey1u/TRILOGY-OF-TERROR.mp4?rlkey=8bknvjraa73aqmzvu53lajw19&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/t0dwl3qeytr9l7wqyey1u/TRILOGY-OF-TERROR.mp4?rlkey=8bknvjraa73aqmzvu53lajw19&dl=1",
+  },
   {
     title: "Wolf",
     year: 1994,

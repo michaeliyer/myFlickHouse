@@ -1,4 +1,4 @@
-const movies = [
+const flicksThriller = [
   {
     title: "Hannibal",
     year: 2001,
