@@ -6,7 +6,8 @@ const movies = [
   ...flicksComedy,
   ...flicksMusic,
   ...flicksPhish,
-  ...flicksWestern
+  ...flicksWestern,
+  ...flicksMysterySuspense
 ];
 
 let isSingleView = false;
