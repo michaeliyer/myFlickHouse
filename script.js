@@ -1,4 +1,12 @@
-const movies = [...flicksHorror, ...flicksBlackComedy, ...flicksThriller];
+const movies = [
+  ...flicksHorror,
+  ...flicksBlackComedy,
+  ...flicksThriller,
+  ...flicksDrama,
+  ...flicksComedy,
+  ...flicksMusic,
+  ...flicksPhish,
+];
 
 let isSingleView = false;
 let currentMovie = null;
