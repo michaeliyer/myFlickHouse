@@ -19,7 +19,7 @@ const flicksBlackComedy = [
   },
   {
     title: "American Beauty",
-    year: 1969,
+    year: 1999,
     genre: "Black Comedy",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/gpbsy6ysnrwzc1x0rbe8o/AMERICAN_BEAUTY.mp4?rlkey=pc7t7ugav8pex2r2onwavupm7&raw=1",
