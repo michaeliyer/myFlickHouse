@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Movie Library</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Search My Movies</h1>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search by title..." />
+      <input type="text" id="keywordInput" placeholder="Search by keyword..." />
+      <input
+        type="number"
+        id="yearInput"
+        placeholder="Year"
+        min="1900"
+        max="2024"
+      />
+      <select id="genreSelect">
+        <option value="">All Genres</option>
+      </select>
+      <button id="clearButton">Clear All</button>
+    </div>
+    <div id="movieList" style="display: none"></div>
+    <div id="singleMovieView" style="display: none">
+      <button id="backToList">← Back to List</button>
+      <div id="selectedMovie"></div>
+    </div>
+
+    <script src="flicks.js"></script>
+    <!-- <script src="flicksHorror.js"></script>
+    <script src="flicksThriller.js"></script> -->
+    <script src="script.js"></script>
+  </body>
+</html>
