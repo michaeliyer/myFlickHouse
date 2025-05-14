@@ -48,8 +48,8 @@ const flicksHorror = [
     title: "Blair Witch Project",
     year: 1999,
     genre: "Horror",
-    dropboxUrl: "https://www.dropbox.com/scl/fi/61nbf2r5cl0myg383z90m/AUDITION.mp4?rlkey=f6irc00ddvikou1lwjyfi27hr&raw=1",  // NOTE: Same link as Audition
-    downloadUrl: "https://www.dropbox.com/scl/fi/61nbf2r5cl0myg383z90m/AUDITION.mp4?rlkey=f6irc00ddvikou1lwjyfi27hr&dl=1"
+    dropboxUrl: "https://www.dropbox.com/scl/fi/4ennj1itz318xr36y1cqk/BLAIR_WITCH_PROJECT.mp4?rlkey=gvemkpefkfpcsq65ogbldxu7y&raw=1",  // NOTE: Same link as Audition
+    downloadUrl: "https://www.dropbox.com/scl/fi/4ennj1itz318xr36y1cqk/BLAIR_WITCH_PROJECT.mp4?rlkey=gvemkpefkfpcsq65ogbldxu7y&l=1"
   },
   {
     title: "The Box",
@@ -245,6 +245,13 @@ const flicksHorror = [
     downloadUrl: "https://www.dropbox.com/scl/fi/j306j3q1xtgztelvilpqk/FOG.mp4?rlkey=r470711pvp0okc1i1e8cx7qjg&dl=1"
   },
   {
+    title: "The Fog",
+    year: 2005,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/qc0yedxuzv5rmym9v97ip/TheFog2005mp4.mp4?rlkey=z2e7zw6ufuvvsxh877oawc9tj&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/qc0yedxuzv5rmym9v97ip/TheFog2005mp4.mp4?rlkey=z2e7zw6ufuvvsxh877oawc9tj&dl=1"
+  },
+  {
     title: "The Fourth Kind",
     year: 2009,
     genre: "Horror",
@@ -373,7 +380,7 @@ const flicksHorror = [
   },
 
 
- {
+  {
     title: "The Innocents",
     year: 1961,
     genre: "Horror",
@@ -471,12 +478,198 @@ const flicksHorror = [
     dropboxUrl: "https://www.dropbox.com/scl/fi/etu6yc7s2q6b8ymh8ydaw/LET_THE-RIGHT_ONE_IN.mp4?rlkey=52p8rfffnw2f3go7kzmn8vd8f&raw=1",
     downloadUrl: "https://www.dropbox.com/scl/fi/etu6yc7s2q6b8ymh8ydaw/LET_THE-RIGHT_ONE_IN.mp4?rlkey=52p8rfffnw2f3go7kzmn8vd8f&dl=1"
   },
+  {
+    title: "Misery",
+    year: 1990,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/ixcjpeldn34d12gmszc6i/MISERY.mp4?rlkey=6rp4snov5lz2wod3w48zclbod&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/ixcjpeldn34d12gmszc6i/MISERY.mp4?rlkey=6rp4snov5lz2wod3w48zclbod&dl=1"
+  },
+  {
+    title: "Night Of The Living Dead",
+    year: 1968,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/03u2ixnvfcnnqjvrhyii1/NIGHT_OF_THE_LIVING_DEAD.mp4?rlkey=3e6wjn738o4dgvg0z1cl3w8k0&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/03u2ixnvfcnnqjvrhyii1/NIGHT_OF_THE_LIVING_DEAD.mp4?rlkey=3e6wjn738o4dgvg0z1cl3w8k0&dl=1"
+  },
+  {
+    title: "Oldboy",
+    year: 2003,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/gj0xjlfbkio6uon7pcxn8/OLD_BOY.mp4?rlkey=wuu10fxbmxn6r5h7xq985x4x7&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/gj0xjlfbkio6uon7pcxn8/OLD_BOY.mp4?rlkey=wuu10fxbmxn6r5h7xq985x4x7&dl=1"
+  },
+  {
+    title: "The Omen",
+    year: 1976,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/ym6iq3kuze3zetb21ypok/OMEN.mp4?rlkey=gk0knnl87vges8bgrogqhxk69&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/ym6iq3kuze3zetb21ypok/OMEN.mp4?rlkey=gk0knnl87vges8bgrogqhxk69&dl=1"
+  },
+  {
+    title: "The Omen 2",
+    year: 1978,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/sdjuej7cs89xfrxlb5qcs/OMEN_2.mp4?rlkey=vb8mcyc48nuydc0y9tc2zybtl&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/sdjuej7cs89xfrxlb5qcs/OMEN_2.mp4?rlkey=vb8mcyc48nuydc0y9tc2zybtl&dl=1"
+  },
+  {
+    title: "One Missed Call",
+    year: 2008,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/aqxg15v9ctzi36tw2a5hr/ONE_MISSED_CALL.mp4?rlkey=etyvqbywi8tixm766j809o2zn&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/aqxg15v9ctzi36tw2a5hr/ONE_MISSED_CALL.mp4?rlkey=etyvqbywi8tixm766j809o2zn&dl=1"
+  },
+  {
+    title: "Open Water",
+    year: 2003,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/8zdqaovmdzkf3eugrjysv/OPEN_WATER.mp4?rlkey=csag2jj9ypfcjvb06n7278c4p&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/8zdqaovmdzkf3eugrjysv/OPEN_WATER.mp4?rlkey=csag2jj9ypfcjvb06n7278c4p&dl=1"
+  },
+  {
+    title: "Orphan",
+    year: 2009,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/wimm52t5wq2527iaeckg8/ORPHAN.mp4?rlkey=76lsevd3dkbw7204emmw8lr0d&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/wimm52t5wq2527iaeckg8/ORPHAN.mp4?rlkey=76lsevd3dkbw7204emmw8lr0d&dl=1"
+  },
+  {
+    title: "Paranormal Activity",
+    year: 2007,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/8k5hkehwggezgaob3e4ys/PARANORMAL_ACTIVITY.mp4?rlkey=185tl7efw7m0pc3773p66sor7&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/8k5hkehwggezgaob3e4ys/PARANORMAL_ACTIVITY.mp4?rlkey=185tl7efw7m0pc3773p66sor7dl=0"
+  },
+  {
+    title: "Paranormal Activity 2",
+    year: 2010,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/rix38qbrr90ruc3xz49ze/PARANORMAL_ACTIVITY_2.mp4?rlkey=q9vdv8w7ymevf6c43ak0hqvid&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/rix38qbrr90ruc3xz49ze/PARANORMAL_ACTIVITY_2.mp4?rlkey=q9vdv8w7ymevf6c43ak0hqvid&dl=1"
+  },
+  {
+    title: "Pulse",
+    year: 2006,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/u598mcscp9cu0l5vo0pm2/PULSE.mp4?rlkey=y8uaw09i00g5ze7lxt2ik4kwc&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/u598mcscp9cu0l5vo0pm2/PULSE.mp4?rlkey=y8uaw09i00g5ze7lxt2ik4kwc&dl=1"
+  },
+  {
+    title: "The Purge",
+    year: 2013,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/4lckcshs8rn0dm9909zkc/PURGE.mp4?rlkey=vq39ah4jd3qungzjsbuan9xkk&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/4lckcshs8rn0dm9909zkc/PURGE.mp4?rlkey=vq39ah4jd3qungzjsbuan9xkk&dl=1"
+  },
+  {
+    title: "Queen Of The Damned",
+    year: 2002,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/7ph6rv0zp1tls3o2ufh2y/QUEEN_OF_THE_DAMNED.mp4?rlkey=30snuwtcc0erq8rkho6s7g4xg&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/7ph6rv0zp1tls3o2ufh2y/QUEEN_OF_THE_DAMNED.mp4?rlkey=30snuwtcc0erq8rkho6s7g4xg&dl=1"
+  },
+  {
+    title: "Ravenous",
+    year: 1999,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/d61ybxgjg71doj4qfb4ri/RAVENOUS.mp4?rlkey=wy5wvx9a305hrr84s10dyyx3g&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/d61ybxgjg71doj4qfb4ri/RAVENOUS.mp4?rlkey=wy5wvx9a305hrr84s10dyyx3g&dl=1"
+  },
 
-
-
-
+{
+    title: "The Ring",
+    year: 2002,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/55rrgr9zq9xtkd1oa9xuz/RING.mp4?rlkey=7aye9vdqjg2fq3omaweorkowq&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/55rrgr9zq9xtkd1oa9xuz/RING.mp4?rlkey=7aye9vdqjg2fq3omaweorkowq&dl=1"
+  },
+  {
+    title: "Rosemary's Baby",
+    year: 1968,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/5zk0jge3ko1xf1fh8jgfy/ROSEMARY-S_BABY.mp4?rlkey=xqwcb9scrg6631opcicw1k4y0&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/5zk0jge3ko1xf1fh8jgfy/ROSEMARY-S_BABY.mp4?rlkey=xqwcb9scrg6631opcicw1k4y0&dl=1"
+  },
+  {
+    title: "Satanic Rites Of Dracula",
+    year: 1973,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/2mci2f5i5t57dr4bvon27/SATANIC_RITES_OF_DRACULA.mp4?rlkey=c95zgptvfiezm6588a7jsj14i&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/2mci2f5i5t57dr4bvon27/SATANIC_RITES_OF_DRACULA.mp4?rlkey=c95zgptvfiezm6588a7jsj14i&dl=1"
+  },
+  {
+    title: "Saw",
+    year: 2004,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/htofwojsnd3qj500qvubg/SAW.mp4?rlkey=edpkmhciedt6nswdpvwjbp03e&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/htofwojsnd3qj500qvubg/SAW.mp4?rlkey=edpkmhciedt6nswdpvwjbp03e&dl=1"
+  },
+  {
+    title: "Saw 2",
+    year: 2005,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/u3pfx7tvv0gupmibq4tlf/SAW2.mp4?rlkey=5sgluzckqi70sgbqojs9wig4y&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/u3pfx7tvv0gupmibq4tlf/SAW2.mp4?rlkey=5sgluzckqi70sgbqojs9wig4y&dl=1"
+  },
+  {
+    title: "Scream",
+    year: 1996,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/eenhnqvssyrn6uwv6p29r/SCREAM.mp4?rlkey=tf75je6cegjn5la8ntf7i31n5&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/eenhnqvssyrn6uwv6p29r/SCREAM.mp4?rlkey=tf75je6cegjn5la8ntf7i31n5&dl=1"
+  },
+  {
+    title: "The Serpent And The Rainbow",
+    year: 1988,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/oyobj1mncb89y9hv5tzsr/SERPENT_AND_THE_RAINBOW.mp4?rlkey=zolvnmbntjl2okqjz4rjpsabb&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/oyobj1mncb89y9hv5tzsr/SERPENT_AND_THE_RAINBOW.mp4?rlkey=zolvnmbntjl2okqjz4rjpsabb&dl=1"
+  },
+  {
+    title: "The Shining",
+    year: 1980,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/2e3989ro7xdpktmqomwoo/THE_SHINING.mp4?rlkey=2z0ayba4toth65tb2klokzxak&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/2e3989ro7xdpktmqomwoo/THE_SHINING.mp4?rlkey=2z0ayba4toth65tb2klokzxak&dl=1"
+  },
+  {
+    title: "Suspiria",
+    year: 1977,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/abtmbkj9j0d1zqrb6n88b/SUSPIRIA.mp4?rlkey=p6gf5mhuyudqzmhwopdk9k2ay&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/abtmbkj9j0d1zqrb6n88b/SUSPIRIA.mp4?rlkey=p6gf5mhuyudqzmhwopdk9k2ay&dl=1"
+  },
+  {
+    title: "A Tale Of Two Sisters",
+    year: 2003,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/gfxtkszcchr4gt67mquzd/TALE-OF_2_SISTERS.mp4?rlkey=q7i6hgzv6g2j1rxkop4quvxco&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/gfxtkszcchr4gt67mquzd/TALE-OF_2_SISTERS.mp4?rlkey=q7i6hgzv6g2j1rxkop4quvxco&dl=1"
+  },
 
   {
+    title: "The Thing",
+    year: 1982,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/jh7zq7tlbyu5horl6gvgv/THE_THING.mp4?rlkey=b8ztc3g2opi0l7lul9558ufe1&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/jh7zq7tlbyu5horl6gvgv/THE_THING.mp4?rlkey=b8ztc3g2opi0l7lul9558ufe1&dl=1"
+  },
+  {
+    title: "They",
+    year: 2007,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/z9fhv03ezgyz5slvwqe95/THEY.mp4?rlkey=ma1a6ydusjs76nffbedyr131s&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/z9fhv03ezgyz5slvwqe95/THEY.mp4?rlkey=ma1a6ydusjs76nffbedyr131s&dl=1"
+  },
+  {
+    title: "Tremors",
+    year: 1971,  // ⚠️ Possibly incorrect — likely meant 1990
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/1arfq7udt4ijmoy1mt5hg/TREMORS.mp4?rlkey=s74q7mmnstrjm5ahi22ogtrhl&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/1arfq7udt4ijmoy1mt5hg/TREMORS.mp4?rlkey=s74q7mmnstrjm5ahi22ogtrhl&dl=1"
+  },
+ {
     title: "Trilogy of Terror",
     year: 1975,
     genre: "Horror",
@@ -484,6 +677,34 @@ const flicksHorror = [
       "https://www.dropbox.com/scl/fi/t0dwl3qeytr9l7wqyey1u/TRILOGY-OF-TERROR.mp4?rlkey=8bknvjraa73aqmzvu53lajw19&raw=1",
     downloadUrl:
       "https://www.dropbox.com/scl/fi/t0dwl3qeytr9l7wqyey1u/TRILOGY-OF-TERROR.mp4?rlkey=8bknvjraa73aqmzvu53lajw19&dl=1",
+  },
+  {
+    title: "The Uninvited",
+    year: 2009,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/3c8zzzyaptsx2affxphc8/UNINVITED.mp4?rlkey=4h8gkdohaxzt06h8zhs8afje0&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/3c8zzzyaptsx2affxphc8/UNINVITED.mp4?rlkey=4h8gkdohaxzt06h8zhs8afje0&dl=1"
+  },
+  {
+    title: "Village Of The Damned",
+    year: 1960,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/rylfkrnt1zfphmm26rig4/VILLAGE_OF_THE_DAMNED.mp4?rlkey=jc438kjl9ffdk22v0z9esqejv&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/rylfkrnt1zfphmm26rig4/VILLAGE_OF_THE_DAMNED.mp4?rlkey=jc438kjl9ffdk22v0z9esqejv&dl=1"
+  },
+  {
+    title: "Village Of The Damned",
+    year: 1995,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/n82vwdg465pcyfn2hg50k/VILLAGE_OF_THE_DAMED_1995.mp4?rlkey=moc5q9kqayhojso8ljxd0o7w6&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/n82vwdg465pcyfn2hg50k/VILLAGE_OF_THE_DAMED_1995.mp4?rlkey=moc5q9kqayhojso8ljxd0o7w6&dl=1"
+  },
+  {
+    title: "Willard",
+    year: 2003,
+    genre: "Horror",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/3keq0lzdssgp64ts9co3x/WILLARD.mp4?rlkey=unonc2uekodjxhqdas3glwvqh&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/3keq0lzdssgp64ts9co3x/WILLARD.mp4?rlkey=unonc2uekodjxhqdas3glwvqh&dl=1"
   },
   {
     title: "VVitch",
