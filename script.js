@@ -153,3 +153,4 @@ function updateFilters() {
 // Initialize the page
 document.getElementById("movieList").style.display = "none";
 populateGenreDropdown();
+console.log("Watch Movies All The Time!!!")
