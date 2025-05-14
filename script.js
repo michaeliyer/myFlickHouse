@@ -7,7 +7,7 @@ const movies = [
   ...flicksMusic,
   ...flicksPhish,
   ...flicksWestern,
-  ...flicksMysterySuspense
+  ...flicksMysterySuspense,
 ];
 
 let isSingleView = false;
@@ -153,4 +153,4 @@ function updateFilters() {
 // Initialize the page
 document.getElementById("movieList").style.display = "none";
 populateGenreDropdown();
-console.log("Watch Movies All The Time!!!")
+console.log("Watch Movies All The Time!!!");
