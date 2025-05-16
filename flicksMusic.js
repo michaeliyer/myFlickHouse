@@ -15,6 +15,6 @@ const flicksMusic = [
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/yrmhxdyz6esf7q14vvlwf/BlueTangoJosh.mp4?rlkey=r3lcqai6baa7ezfyal6bm7n4a&raw=1",
     downloadUrl:
-      "https://www.dropbox.com/scl/fi/yrmhxdyz6esf7q14vvlwf/BlueTangoJosh.mp4?rlkey=r3lcqai6baa7ezfyal6bm7n4a&dl=0",
+      "https://www.dropbox.com/scl/fi/yrmhxdyz6esf7q14vvlwf/BlueTangoJosh.mp4?rlkey=r3lcqai6baa7ezfyal6bm7n4a&dl=1",
   },
 ];
