@@ -38,22 +38,24 @@ function renderMovies(filters = {}) {
   const list = document.getElementById("movieList");
   list.innerHTML = "";
 
-  const filtered = movies.filter((movie) => {
-    const titleMatch = movie.title
-      .toLowerCase()
-      .includes((filters.title || "").toLowerCase());
-    // Multi-word keyword search: all words must be present in title or genre
-    const keywordInput = (filters.keyword || "").toLowerCase().trim();
-    const keywordWords = keywordInput.split(/\s+/).filter(Boolean);
-    const keywordMatch = keywordWords.every(
-      (word) =>
-        movie.title.toLowerCase().includes(word) ||
-        movie.genre.toLowerCase().includes(word)
-    );
-    const yearMatch = !filters.year || movie.year === parseInt(filters.year);
-    const genreMatch = !filters.genre || movie.genre === filters.genre;
-    return titleMatch && keywordMatch && yearMatch && genreMatch;
-  });
+  const filtered = movies
+    .filter((movie) => {
+      const titleMatch = movie.title
+        .toLowerCase()
+        .includes((filters.title || "").toLowerCase());
+      // Multi-word keyword search: all words must be present in title or genre
+      const keywordInput = (filters.keyword || "").toLowerCase().trim();
+      const keywordWords = keywordInput.split(/\s+/).filter(Boolean);
+      const keywordMatch = keywordWords.every(
+        (word) =>
+          movie.title.toLowerCase().includes(word) ||
+          movie.genre.toLowerCase().includes(word)
+      );
+      const yearMatch = !filters.year || movie.year === parseInt(filters.year);
+      const genreMatch = !filters.genre || movie.genre === filters.genre;
+      return titleMatch && keywordMatch && yearMatch && genreMatch;
+    })
+    .sort((a, b) => a.title.localeCompare(b.title)); // Sort movies alphabetically by title
 
   if (filtered.length === 0) {
     list.innerHTML = "<p>No movies found.</p>";
