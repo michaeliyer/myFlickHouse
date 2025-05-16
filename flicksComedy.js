@@ -109,6 +109,15 @@ const flicksComedy = [
       "https://www.dropbox.com/scl/fi/q8ci5gbhuxkcg5s2wl9b6/AS_GOOD_AS_IT_GETS.mp4?rlkey=v6ujfl4ls5hmgiwxgzf98jp7f&dl=1",
   },
   {
+    title: "Barbie",
+    year: 2023,
+    genre: "Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/0dzyf098858qfuvc7ynsn/Barbie.mp4?rlkey=a13jjd9kfzjxgysmsk4lhl5x7&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/0dzyf098858qfuvc7ynsn/Barbie.mp4?rlkey=a13jjd9kfzjxgysmsk4lhl5x7&dl=1",
+  },
+  {
     title: "Benny And Joon",
     year: 1993,
     genre: "Comedy",
@@ -243,6 +252,16 @@ const flicksComedy = [
     downloadUrl:
       "https://www.dropbox.com/scl/fi/iw4lo4tpi44h4j0wfrhin/FLETCH.mp4?rlkey=vemjme92dhwiirdyzc7wu53ze&dl=1",
   },
+  {
+    title: "Gremlins",
+    year: 1984,
+    genre: "Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/eo2yehy7330j4gacw6avz/Gremlins.mp4?rlkey=2ez3k6k673p44tjc6hxd670og&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/eo2yehy7330j4gacw6avz/Gremlins.mp4?rlkey=2ez3k6k673p44tjc6hxd670og&dl=1",
+  },
+
   {
     title: "Monty Python and the Holy Grail",
     year: 1975,
