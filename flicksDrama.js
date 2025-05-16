@@ -26,4 +26,13 @@ const flicksDrama = [
     downloadUrl:
       "https://www.dropbox.com/scl/fi/h9vy2qyypua213wri6gzt/AMADEUS_SIDE_B.mp4?rlkey=sb88o0jg89qentvr90vqli38a&dl=1",
   },
+  {
+    title: "Casablanca",
+    year: 1942,
+    genre: "Drama",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/q8kv8hloeeix650ddjazu/Casablanca.mp4?rlkey=dzzcusbh17213ntu3b0nn65gb&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/q8kv8hloeeix650ddjazu/Casablanca.mp4?rlkey=dzzcusbh17213ntu3b0nn65gb&dl=1",
+  },
 ];
