@@ -52,7 +52,11 @@ function renderMovies(filters = {}) {
           movie.genre.toLowerCase().includes(word)
       );
       const yearMatch = !filters.year || movie.year === parseInt(filters.year);
-      const genreMatch = !filters.genre || movie.genre === filters.genre;
+      // Treat 'all' as no genre filter
+      const genreMatch =
+        !filters.genre ||
+        filters.genre === "all" ||
+        movie.genre === filters.genre;
       return titleMatch && keywordMatch && yearMatch && genreMatch;
     })
     .sort((a, b) => a.title.localeCompare(b.title)); // Sort movies alphabetically by title

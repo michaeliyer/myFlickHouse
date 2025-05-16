@@ -35,6 +35,234 @@ const flicksBlackComedy = [
     downloadUrl:
       "https://www.dropbox.com/scl/fi/1c3ljmpji0zonyk1now80/AMERICAN_WEREWOLF_IN_LONDON.mp4?rlkey=wubq2uz3v0c7359zp8o2qoy76&dl=0",
   },
+
+  {
+    title: "Baby",
+    year: 1973,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/kkieq02fbgqonnaqfyfh6/BABY.mp4?rlkey=ff9tcjqycb1vm9cgon53z9ijv&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/kkieq02fbgqonnaqfyfh6/BABY.mp4?rlkey=ff9tcjqycb1vm9cgon53z9ijv&dl=1",
+  },
+  {
+    title: "Badlands",
+    year: 1973,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/zixb4mozd7u7ccwjy01lb/BADLANDS.mp4?rlkey=2slaqpb5srwgpr30samoqm2sk&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/zixb4mozd7u7ccwjy01lb/BADLANDS.mp4?rlkey=2slaqpb5srwgpr30samoqm2sk&dl=1",
+  },
+  {
+    title: "Beetlejuice",
+    year: 1988,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/dpm2yzy3zxyipw9ks756h/BEETLEJUICE.mp4?rlkey=fj0xhlxrp46j9qpbl6j7z7o9o&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/dpm2yzy3zxyipw9ks756h/BEETLEJUICE.mp4?rlkey=fj0xhlxrp46j9qpbl6j7z7o9o&dl=1",
+  },
+  {
+    title: "Being John Malkovich",
+    year: 1999,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/ozw9y6d9coppxu68yyb24/BEING_JOHN_MALKOVICH.mp4?rlkey=x3yu4desargez3ler25x5lzek&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/ozw9y6d9coppxu68yyb24/BEING_JOHN_MALKOVICH.mp4?rlkey=x3yu4desargez3ler25x5lzek&dl=1",
+  },
+  {
+    title: "The Big Lebowski",
+    year: 1998,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/7nnfy34xgy4p0ypen27jh/BIG_LEBOWSKI.mp4?rlkey=4qh84m02a43t8w91hv7ffropq&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/7nnfy34xgy4p0ypen27jh/BIG_LEBOWSKI.mp4?rlkey=4qh84m02a43t8w91hv7ffropq&dl=1",
+  },
+  {
+    title: "Blood Simple",
+    year: 1984,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/vn14dw5trk12u2f6y22f4/BLOOD_SIMPLE.mp4?rlkey=lv3khty16jrtwufdsyvwrt5tx&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/vn14dw5trk12u2f6y22f4/BLOOD_SIMPLE.mp4?rlkey=lv3khty16jrtwufdsyvwrt5tx&dl=1",
+  },
+  {
+    title: "Blue Velvet",
+    year: 1986,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/t1vuziz8xjgomayxkkorx/BLUE_VELVET.mp4?rlkey=mp5ukbguirmble6r0sidcmpo5&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/t1vuziz8xjgomayxkkorx/BLUE_VELVET.mp4?rlkey=mp5ukbguirmble6r0sidcmpo5&dl=1",
+  },
+  {
+    title: "Boogie Nights",
+    year: 1997,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/pdnmpawwquw6o4uhs0au1/BOOGIE_NIGHTS.mp4?rlkey=m32n3th5iw3higzuxlekuoovu&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/pdnmpawwquw6o4uhs0au1/BOOGIE_NIGHTS.mp4?rlkey=m32n3th5iw3higzuxlekuoovu&dl=1",
+  },
+  {
+    title: "Brazil",
+    year: 1985,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/uli6uze0lp5atmd5r6nqb/BRAZIL.mp4?rlkey=rye595qfidk7vc1vvb2lfb2qe&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/uli6uze0lp5atmd5r6nqb/BRAZIL.mp4?rlkey=rye595qfidk7vc1vvb2lfb2qe&dl=1",
+  },
+  {
+    title: "Bring Me the Head of Alfredo Garcia",
+    year: 1974,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/vtg1rq9zdm51gwy2279sx/BRING_ME_THE_HEAD_OF_ALFREDO_GARCIA.mp4?rlkey=gloqr0uldrsb5xvzw36xh5ly6&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/vtg1rq9zdm51gwy2279sx/BRING_ME_THE_HEAD_OF_ALFREDO_GARCIA.mp4?rlkey=gloqr0uldrsb5xvzw36xh5ly6&dl=1",
+  },
+  {
+    title: "Burn After Reading",
+    year: 2008,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/4u03afrc4y7fdthx0t7e4/BURN_AFTER_READING.mp4?rlkey=i60ltjiwoxnp2q1wl5xdvlpib&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/4u03afrc4y7fdthx0t7e4/BURN_AFTER_READING.mp4?rlkey=i60ltjiwoxnp2q1wl5xdvlpib&dl=1",
+  },
+  {
+    title: "A Clockwork Orange",
+    year: 1971,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/4lcup2tne9if98u2shdh1/CLOCKWORK_ORANGE.mp4?rlkey=5x7ykd88s3wo12kw6l5m3bnn7&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/4lcup2tne9if98u2shdh1/CLOCKWORK_ORANGE.mp4?rlkey=5x7ykd88s3wo12kw6l5m3bnn7&dl=1",
+  },
+
+  {
+    title: "Coffee and Cigarettes",
+    year: 2003,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/had16sexb6oa3pm80s448/COFFEE_AND_CIGARETTES.mp4?rlkey=oobmn7vfu8z8a8dslxn7ppwf9&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/had16sexb6oa3pm80s448/COFFEE_AND_CIGARETTES.mp4?rlkey=oobmn7vfu8z8a8dslxn7ppwf9&dl=1",
+  },
+  {
+    title: "The Count of Monte Cristo",
+    year: 2002,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/wtuazhh8gq90hla6aji9c/COUNT_OF_MONTE_CRISTO.mp4?rlkey=iocaqu6512qfr3h05ijyih19k&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/wtuazhh8gq90hla6aji9c/COUNT_OF_MONTE_CRISTO.mp4?rlkey=iocaqu6512qfr3h05ijyih19k&dl=1",
+  },
+  {
+    title: "Dangerous Liaisons",
+    year: 1988,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/1s5xbz4plshwnhohozin3/DANGEROUS_LIAISONS.mp4?rlkey=vo4j1j59n538pedluy5ro7z5h&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/1s5xbz4plshwnhohozin3/DANGEROUS_LIAISONS.mp4?rlkey=vo4j1j59n538pedluy5ro7z5h&dl=1",
+  },
+  {
+    title: "The Dangerous Lives of Altar Boys",
+    year: 2002,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/gq2j5l129hfq8gqd6tbnv/DANGEROUS_LIVES_OF_ALTAR_BOYS.mp4?rlkey=lbuy417jpg65jun4xk9ie9j5b&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/gq2j5l129hfq8gqd6tbnv/DANGEROUS_LIVES_OF_ALTAR_BOYS.mp4?rlkey=lbuy417jpg65jun4xk9ie9j5b&dl=1",
+  },
+  {
+    title: "The Darjeeling Limited",
+    year: 2007,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/6cbo17gchg9ev7migbo60/DARJEELING-LIMITED.mp4?rlkey=2huf84a23lsl0m289dgcelf99&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/6cbo17gchg9ev7migbo60/DARJEELING-LIMITED.mp4?rlkey=2huf84a23lsl0m289dgcelf99&dl=1",
+  },
+  {
+    title: "Diner",
+    year: 1982,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/6xd9c1kuseygetcbuzet7/DINER.mp4?rlkey=gyjubhk0fnrn9v6pclenpq7tl&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/6xd9c1kuseygetcbuzet7/DINER.mp4?rlkey=gyjubhk0fnrn9v6pclenpq7tl&dl=1",
+  },
+  {
+    title: "Django Unchained",
+    year: 2012,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/nmljof41g4efzn65goznn/DJANGO_UNCHAINED.mp4?rlkey=ghlw868tzms40qkb7nocpaj5f&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/nmljof41g4efzn65goznn/DJANGO_UNCHAINED.mp4?rlkey=ghlw868tzms40qkb7nocpaj5f&dl=1",
+  },
+  {
+    title: "Dogma",
+    year: 1999,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/t6vtg61z7qn18yirh2yis/DOGMA.mp4?rlkey=3cyc8izgu7k1bvr9h5riw0eik&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/t6vtg61z7qn18yirh2yis/DOGMA.mp4?rlkey=3cyc8izgu7k1bvr9h5riw0eik&dl=1",
+  },
+  {
+    title: "Dr. Strangelove",
+    year: 1964,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/9oodic4b7cw3sczi302ki/DR_STRANGELOVE_Standard.mp4?rlkey=933am0254wljl3l6ty1e40f03&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/9oodic4b7cw3sczi302ki/DR_STRANGELOVE_Standard.mp4?rlkey=933am0254wljl3l6ty1e40f03&dl=1",
+  },
+  {
+    title: "Drugstore Cowboy",
+    year: 1989,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/lvxaql1zeug1af4ffjlnx/DRUGSTORE_COWBOY.mp4?rlkey=bwy3dxqybb5f671v5v0r07o1b&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/lvxaql1zeug1af4ffjlnx/DRUGSTORE_COWBOY.mp4?rlkey=bwy3dxqybb5f671v5v0r07o1b&dl=1",
+  },
+  {
+    title: "Eating Raoul",
+    year: 1982,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/bgbccfe9lxinowafr3le9/EATING_RAOUL.mp4?rlkey=subte41avjorpdd2wq1kkwpey&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/bgbccfe9lxinowafr3le9/EATING_RAOUL.mp4?rlkey=subte41avjorpdd2wq1kkwpey&dl=1",
+  },
+  {
+    title: "Ed Wood",
+    year: 1994,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/fhqb4nm40oio0c6tt11en/ED_WOOD.mp4?rlkey=dehvvxcyvn4h7c6p74hx1f37j&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/fhqb4nm40oio0c6tt11en/ED_WOOD.mp4?rlkey=dehvvxcyvn4h7c6p74hx1f37j&dl=1",
+  },
+  {
+    title: "Eternal Sunshine of the Spotless Mind",
+    year: 2004,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/8swgynx50rg4bhrfjxmhd/ETERNAL_SUNSHINE_OF_THE_SPOTLESS_MIND.mp4?rlkey=cgu9lqo17ge5bg4luupd7qmws&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/8swgynx50rg4bhrfjxmhd/ETERNAL_SUNSHINE_OF_THE_SPOTLESS_MIND.mp4?rlkey=cgu9lqo17ge5bg4luupd7qmws&dl=1",
+  },
+
   {
     title: "Truman Show",
     year: 1998,
