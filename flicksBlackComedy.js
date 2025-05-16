@@ -264,6 +264,133 @@ const flicksBlackComedy = [
   },
 
   {
+    title: "Fargo",
+    year: 1996,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/d5y8kjjm1q5x3hnehwxge/FARGO.mp4?rlkey=b9b0vyp0kqu9q4su42ugq3wvc&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/d5y8kjjm1q5x3hnehwxge/FARGO.mp4?rlkey=b9b0vyp0kqu9q4su42ugq3wvc&dl=1",
+  },
+  {
+    title: "Fear and Loathing in Las Vegas",
+    year: 1998,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/gnkci62qol0jv565cl3uj/FEAR_AND_LOATHING_IN_LV.mp4?rlkey=937sfsaafmpqs9457rjntk6dl&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/gnkci62qol0jv565cl3uj/FEAR_AND_LOATHING_IN_LV.mp4?rlkey=937sfsaafmpqs9457rjntk6dl&dl=1",
+  },
+  {
+    title: "Fido",
+    year: 2006,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/yerwzuryjz301zsvcflz0/FIDO.mp4?rlkey=xpz6e9hvwoiflu22qrvejpvdd&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/yerwzuryjz301zsvcflz0/FIDO.mp4?rlkey=xpz6e9hvwoiflu22qrvejpvdd&dl=1",
+  },
+  {
+    title: "Glengarry Glen Ross",
+    year: 1992,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/5zp86aqpfc69322t6tzz1/GLENGARRY_GLENROSS.mp4?rlkey=3v60dytj0a2urdq4ryj9b1ivx&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/5zp86aqpfc69322t6tzz1/GLENGARRY_GLENROSS.mp4?rlkey=3v60dytj0a2urdq4ryj9b1ivx&dl=1",
+  },
+  {
+    title: "The Graduate",
+    year: 1967,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/u6tdvf4r6qs66xxkfbufz/GRADUATE.mp4?rlkey=6ccyupqvr7i5qzu04nljxoyfx&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/u6tdvf4r6qs66xxkfbufz/GRADUATE.mp4?rlkey=6ccyupqvr7i5qzu04nljxoyfx&dl=1",
+  },
+  {
+    title: "Grosse Pointe Blank",
+    year: 1997,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/okcb2w30g5iefpr8hrznx/GROSS_POINTE_BLANK.mp4?rlkey=al6cf9fw21kmdzbwywab6rzvu&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/okcb2w30g5iefpr8hrznx/GROSS_POINTE_BLANK.mp4?rlkey=al6cf9fw21kmdzbwywab6rzvu&dl=1",
+  },
+  {
+    title: "Groundhog Day",
+    year: 1993,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/xji6d738npoaxz0h6paqg/GROUNDHOG_DAY.mp4?rlkey=oi7mwyyq03dojhbzvkf52xxpg&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/xji6d738npoaxz0h6paqg/GROUNDHOG_DAY.mp4?rlkey=oi7mwyyq03dojhbzvkf52xxpg&dl=1",
+  },
+  {
+    title: "Happiness",
+    year: 1998,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/6ujnm9fuhu43jm4y55omh/HAPPINESS.mp4?rlkey=4ik1otu1nmiz8g8dayqalkc18&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/6ujnm9fuhu43jm4y55omh/HAPPINESS.mp4?rlkey=4ik1otu1nmiz8g8dayqalkc18&dl=1",
+  },
+  {
+    title: "Harold and Maude",
+    year: 1971,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/64mpf0h0n7hgs65e77uvo/HAROLD_AND_MAUDE.mp4?rlkey=ji9pscvne1g3oiazxoyps4ira&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/64mpf0h0n7hgs65e77uvo/HAROLD_AND_MAUDE.mp4?rlkey=ji9pscvne1g3oiazxoyps4ira&dl=1",
+  },
+  {
+    title: "Inglourious Basterds",
+    year: 2009,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/knoq4mja2dhcmq7d7k7ea/INGLOURIOUS_BASTERDS.mp4?rlkey=v42k4mq681r1p7kvosruzui9h&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/knoq4mja2dhcmq7d7k7ea/INGLOURIOUS_BASTERDS.mp4?rlkey=v42k4mq681r1p7kvosruzui9h&dl=1",
+  },
+  {
+    title: "Kill Bill: Vol. 1",
+    year: 2003,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/gw8fh3d8dpwne7ml0brjx/KILL_BILL_VOL1.mp4?rlkey=1n5ndg1htb4um35jumt40g9sx&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/gw8fh3d8dpwne7ml0brjx/KILL_BILL_VOL1.mp4?rlkey=1n5ndg1htb4um35jumt40g9sx&dl=1",
+  },
+  {
+    title: "Kill Bill: Vol. 2",
+    year: 2004,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/pnhqmigomyja50hzih8iz/KILL_BILL_VOL2.mp4?rlkey=8iuz5gusnwe7vh3loyz7af1dh&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/pnhqmigomyja50hzih8iz/KILL_BILL_VOL2.mp4?rlkey=8iuz5gusnwe7vh3loyz7af1dh&dl=1",
+  },
+  {
+    title: "The King of Comedy",
+    year: 1982,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/272qdwtii4kzdt7gnxtqq/KING_OF_COMEDY.mp4?rlkey=e1akdkkpy5p1xwjygj9aaxnm8&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/272qdwtii4kzdt7gnxtqq/KING_OF_COMEDY.mp4?rlkey=e1akdkkpy5p1xwjygj9aaxnm8&dl=1",
+  },
+  {
+    title: "The Life Aquatic with Steve Zissou",
+    year: 2004,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/360ch9mat5z7hv731qft7/LIFE_AQUATIC.mp4?rlkey=i38f1sthnzeq5nn0x1yvogik2&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/360ch9mat5z7hv731qft7/LIFE_AQUATIC.mp4?rlkey=i38f1sthnzeq5nn0x1yvogik2&dl=1",
+  },
+
+  {
     title: "Truman Show",
     year: 1998,
     genre: "Black Comedy",
