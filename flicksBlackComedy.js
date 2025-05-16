@@ -391,6 +391,196 @@ const flicksBlackComedy = [
   },
 
   {
+    title: "Life Is Beautiful",
+    year: 1997,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/ksc6ppk2mhnxjmsviwwqf/LIFE_IS_BEAUTIFUL.mp4?rlkey=k4q0ogy1z8hfdb73t4pdkxd9d&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/ksc6ppk2mhnxjmsviwwqf/LIFE_IS_BEAUTIFUL.mp4?rlkey=k4q0ogy1z8hfdb73t4pdkxd9d&dl=1",
+  },
+  {
+    title: "Lolita",
+    year: 1962,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/j64xp51ibbujv9wwrodlr/LOLITA.mp4?rlkey=cw5qc9ivizx59gzqjhg94wbw3&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/j64xp51ibbujv9wwrodlr/LOLITA.mp4?rlkey=cw5qc9ivizx59gzqjhg94wbw3&dl=1",
+  },
+  {
+    title: "Lost Highway",
+    year: 1997,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/wbgzx30cl7ivo7s74uaq9/LOST_HIGHWAY.mp4?rlkey=f1ikmyvfe9wcqaiewha1wui7u&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/wbgzx30cl7ivo7s74uaq9/LOST_HIGHWAY.mp4?rlkey=f1ikmyvfe9wcqaiewha1wui7u&dl=1",
+  },
+  {
+    title: "Man on the Moon",
+    year: 1999,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/zkovbruufcl1rnbquh9g4/MAN_ON_THE_MOON.mp4?rlkey=cov4rwfrlmd95pkufnzkp4lui&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/zkovbruufcl1rnbquh9g4/MAN_ON_THE_MOON.mp4?rlkey=cov4rwfrlmd95pkufnzkp4lui&dl=1",
+  },
+  {
+    title: "Miller's Crossing",
+    year: 1990,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/0lg1m0f34tksjuadzfcly/MILLERS_CROSSING.mp4?rlkey=vq7ng90lzkj8qemg1kmf696n4&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/0lg1m0f34tksjuadzfcly/MILLERS_CROSSING.mp4?rlkey=vq7ng90lzkj8qemg1kmf696n4&dl=1",
+  },
+  {
+    title: "Moonrise Kingdom",
+    year: 2012,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/kyo2iofvz6rw5uz8jnhp2/MOONRISE_KINGDOM.mp4?rlkey=z1l7r9mcba9ca9hexj5n7a4jg&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/kyo2iofvz6rw5uz8jnhp2/MOONRISE_KINGDOM.mp4?rlkey=z1l7r9mcba9ca9hexj5n7a4jg&dl=1",
+  },
+  {
+    title: "Napoleon Dynamite",
+    year: 2004,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/k9gbugz1sn1kchwhulcst/NAPOLEON_DYNAMITE.mp4?rlkey=nfyruzqmwidu9itncmk6e8qgm&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/k9gbugz1sn1kchwhulcst/NAPOLEON_DYNAMITE.mp4?rlkey=nfyruzqmwidu9itncmk6e8qgm&dl=1",
+  },
+  {
+    title: "No Country for Old Men",
+    year: 2007,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/cpb5nbiwfr66lazp8psza/NO_COUNTRY_FOR_OLD_MEN.mp4?rlkey=72p7qzf16pz2og2qvvfcv94rl&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/cpb5nbiwfr66lazp8psza/NO_COUNTRY_FOR_OLD_MEN.mp4?rlkey=72p7qzf16pz2og2qvvfcv94rl&dl=1",
+  },
+  {
+    title: "O Brother, Where Art Thou?",
+    year: 2000,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/zzy9g5f1hz6ey4xd2yjaa/OH_BROTHER_WHERE_ART_THOU.mp4?rlkey=wzqrzaz95c1w1xvrf9jkvixmh&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/zzy9g5f1hz6ey4xd2yjaa/OH_BROTHER_WHERE_ART_THOU.mp4?rlkey=wzqrzaz95c1w1xvrf9jkvixmh&dl=1",
+  },
+  {
+    title: "Pulp Fiction",
+    year: 1994,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/mzvfqdewq1x06drsmwug9/PULP_FICTION.mp4?rlkey=84tsb8f031o8qjc1e3xehiqia&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/mzvfqdewq1x06drsmwug9/PULP_FICTION.mp4?rlkey=84tsb8f031o8qjc1e3xehiqia&dl=1",
+  },
+  {
+    title: "Raising Arizona",
+    year: 1987,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/7iqzbsctrdt5wxdq46xlg/RAISING_ARIZONA.mp4?rlkey=0rv42dtfylel5nkdxa9nbavpo&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/7iqzbsctrdt5wxdq46xlg/RAISING_ARIZONA.mp4?rlkey=0rv42dtfylel5nkdxa9nbavpo&dl=1",
+  },
+  {
+    title: "Reefer Madness",
+    year: 1936,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/tfji5kfc2frfxh6ombqya/REEFER_MADNESS.mp4?rlkey=sn8y7e5h8almlfh7u13umz2aj&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/tfji5kfc2frfxh6ombqya/REEFER_MADNESS.mp4?rlkey=sn8y7e5h8almlfh7u13umz2aj&dl=1",
+  },
+  {
+    title: "Reservoir Dogs",
+    year: 1992,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/jipzl46b75mfh6wv24zrg/RESERVOIR_DOGS.mp4?rlkey=wwxbj1wmp3o1aqas8tftjmyzk&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/jipzl46b75mfh6wv24zrg/RESERVOIR_DOGS.mp4?rlkey=wwxbj1wmp3o1aqas8tftjmyzk&dl=1",
+  },
+  {
+    title: "The Royal Tenenbaums",
+    year: 2001,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/sw6pqa6xkie52gqm37swm/ROYAL_TENENBAUMS.mp4?rlkey=vnxr88r5w8p9bfnmuu1q3aqht&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/sw6pqa6xkie52gqm37swm/ROYAL_TENENBAUMS.mp4?rlkey=vnxr88r5w8p9bfnmuu1q3aqht&dl=1",
+  },
+  {
+    title: "Rushmore",
+    year: 1998,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/l6v1z10uk5k8er3zv610c/RUSHMORE.mp4?rlkey=h9ybdmsiwwcn9h7i0ytj7w78j&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/l6v1z10uk5k8er3zv610c/RUSHMORE.mp4?rlkey=h9ybdmsiwwcn9h7i0ytj7w78j&dl=1",
+  },
+  {
+    title: "Sideways",
+    year: 2004,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/ht9a50tmjjfgx4ar47k3p/SIDEWAYS.mp4?rlkey=swnk6v60cl6k8kok87le4mw3x&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/ht9a50tmjjfgx4ar47k3p/SIDEWAYS.mp4?rlkey=swnk6v60cl6k8kok87le4mw3x&dl=1",
+  },
+  {
+    title: "The Squid and the Whale",
+    year: 2005,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/8yc5nerv5ard9g3s6fks7/SQUID_AND_THE_WHALE.mp4?rlkey=47ntp06rj8dz5j4bvi7fmt0qz&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/8yc5nerv5ard9g3s6fks7/SQUID_AND_THE_WHALE.mp4?rlkey=47ntp06rj8dz5j4bvi7fmt0qz&dl=1",
+  },
+  {
+    title: "Trainspotting",
+    year: 1996,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/l687imbnaq5vbextexkyb/TRAINSPOTTING.mp4?rlkey=4cjdeba4i84jyhgqb0m6xicpx&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/l687imbnaq5vbextexkyb/TRAINSPOTTING.mp4?rlkey=4cjdeba4i84jyhgqb0m6xicpx&dl=1",
+  },
+  {
+    title: "True Romance (Widescreen)",
+    year: 1993,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/z5osyrdytktd4l6zxfmqr/TRUE_ROMANCE_Widescreen.mp4?rlkey=ga5ryqx9sh158apyupfcd91vh&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/z5osyrdytktd4l6zxfmqr/TRUE_ROMANCE_Widescreen.mp4?rlkey=ga5ryqx9sh158apyupfcd91vh&dl=1",
+  },
+  {
+    title: "True Romance",
+    year: 1993,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/zifm28tbdfgg9oaciczhi/TRUE_ROMANCE.mp4?rlkey=u0w1p69yd0o5v6hjjymdtaz6y&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/zifm28tbdfgg9oaciczhi/TRUE_ROMANCE.mp4?rlkey=u0w1p69yd0o5v6hjjymdtaz6y&dl=1",
+  },
+  {
+    title: "True Stories",
+    year: 1986,
+    genre: "Black Comedy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/rjeoakv0h77m1rihdchqh/TRUE_STORIES.mp4?rlkey=8ikfuqzefhxqr4i7owaw74ist&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/rjeoakv0h77m1rihdchqh/TRUE_STORIES.mp4?rlkey=8ikfuqzefhxqr4i7owaw74ist&dl=1",
+  },
+
+  {
     title: "Truman Show",
     year: 1998,
     genre: "Black Comedy",
