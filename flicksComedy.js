@@ -197,6 +197,76 @@ const flicksComedy = [
     genre: "Comedy",
     dropboxUrl: "https://www.dropbox.com/scl/fi/jwj7c5clxe3u4fv64sw0k/HOLY_GRAIL.mp4?rlkey=8imrrcfzht7y0295je2pkatgg&raw=1",
     downloadUrl: "https://www.dropbox.com/scl/fi/jwj7c5clxe3u4fv64sw0k/HOLY_GRAIL.mp4?rlkey=8imrrcfzht7y0295je2pkatgg&dl=1"
+  },
+  {
+    title: "Home Alone",
+    year: 1990,
+    genre: "Comedy",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/kas3197vttgihdu3tw89c/HOME_ALONE.mp4?rlkey=1ft9402mwc0txfus8n297ao7e&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/kas3197vttgihdu3tw89c/HOME_ALONE.mp4?rlkey=1ft9402mwc0txfus8n297ao7e&dl=1"
+  },
+  {
+    title: "Hurlyburly",
+    year: 1998,
+    genre: "Comedy",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/elm3qtog6hcvaumzukhhl/HURLY_BURLY.mp4?rlkey=9e3p2lf3w8lr1vrtk4mas6arr&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/elm3qtog6hcvaumzukhhl/HURLY_BURLY.mp4?rlkey=9e3p2lf3w8lr1vrtk4mas6arr&dl=1"
+  },
+  {
+    title: "Jackass: The Movie",
+    year: 2002,
+    genre: "Comedy",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/xjhtm5csda83tvhw4sdzb/JACKASS.mp4?rlkey=ds19nrfyjfho02optttfmfqac&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/xjhtm5csda83tvhw4sdzb/JACKASS.mp4?rlkey=ds19nrfyjfho02optttfmfqac&dl=1"
+  },
+  {
+    title: "Major League",
+    year: 1989,
+    genre: "Comedy",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/wg9f3v5gmwqkcaorf3p62/MAJORLEAGUE.mp4?rlkey=q8v7vla3btlyo9jfb9vhhl7le&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/wg9f3v5gmwqkcaorf3p62/MAJORLEAGUE.mp4?rlkey=q8v7vla3btlyo9jfb9vhhl7le&dl=1"
+  },
+  {
+    title: "Meet the Fockers",
+    year: 2004,
+    genre: "Comedy",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/spkaqpq90rg9vw3z3rm9e/MEET_THE_FOCKERS.mp4?rlkey=0a69z47mt2kjv0jrngcwyr7zy&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/spkaqpq90rg9vw3z3rm9e/MEET_THE_FOCKERS.mp4?rlkey=0a69z47mt2kjv0jrngcwyr7zy&dl=1"
+  },
+  {
+    title: "Meet the Parents",
+    year: 2000,
+    genre: "Comedy",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/v7d5yvlencnrkb3l1i22c/MEET_THE_PARENTS.mp4?rlkey=bhnk5xrd2xk7zyn341x7qcgxw&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/v7d5yvlencnrkb3l1i22c/MEET_THE_PARENTS.mp4?rlkey=bhnk5xrd2xk7zyn341x7qcgxw&dl=1"
+  },
+  {
+    title: "Mermaids",
+    year: 1990,
+    genre: "Comedy",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/goqjj9n52bjp2ytafx3f2/MERMAIDS.mp4?rlkey=duv5rm5k8h9t72fdtt7ek7tsb&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/goqjj9n52bjp2ytafx3f2/MERMAIDS.mp4?rlkey=duv5rm5k8h9t72fdtt7ek7tsb&dl=1"
+  },
+  {
+    title: "Midnight Run",
+    year: 1988,
+    genre: "Comedy",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/qwslpwf17g892qf25zzlm/MIDNIGHT_RUN.mp4?rlkey=xp3ddmnp4880y9pljqprwxns3&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/qwslpwf17g892qf25zzlm/MIDNIGHT_RUN.mp4?rlkey=xp3ddmnp4880y9pljqprwxns3&dl=1"
+  },
+  {
+    title: "Office Space",
+    year: 1999,
+    genre: "Comedy",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/3jxpxa29st2vcq0c879ct/OFFICE_SPACE.mp4?rlkey=vqjypzx2wuk3qok7eeop17mx2&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/3jxpxa29st2vcq0c879ct/OFFICE_SPACE.mp4?rlkey=vqjypzx2wuk3qok7eeop17mx2&dl=1"
+  },
+  {
+    title: "Old School",
+    year: 2003,
+    genre: "Comedy",
+    dropboxUrl: "https://www.dropbox.com/scl/fi/ws2x7sojypfe0c006d6s5/OLD_SCHOOL.mp4?rlkey=tqhu2y5xxu2wa2lrgffteyhoa&raw=1",
+    downloadUrl: "https://www.dropbox.com/scl/fi/ws2x7sojypfe0c006d6s5/OLD_SCHOOL.mp4?rlkey=tqhu2y5xxu2wa2lrgffteyhoa&dl=1"
   }
 
 
