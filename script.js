@@ -129,6 +129,7 @@ function showSingleMovie(movieTitle) {
     <div class="repeat-control">
       <label for="repeatCount">Repeat:</label>
       <input type="number" id="repeatCount" min="0" value="0" style="width: 60px;">
+      <span id="repeatsLeft" style="margin-left:10px; color:#aaa;"></span>
     </div>
     <div class="movie-actions">
       <a href="${
@@ -143,32 +144,48 @@ function showSingleMovie(movieTitle) {
   const video = document.getElementById("moviePlayer");
   const volumeSlider = document.getElementById("volumeSlider");
   const repeatInput = document.getElementById("repeatCount");
-  let playCount = 0;
-  let repeatTotal = 0; // number of repeats after first play
+  const repeatsLeftSpan = document.getElementById("repeatsLeft");
+  let repeatsLeft = 0;
 
-  if (video && volumeSlider) {
+  function updateRepeatsLeftDisplay() {
+    if (repeatsLeftSpan) {
+      repeatsLeftSpan.textContent = `Remaining repeats: ${repeatsLeft}`;
+    }
+  }
+
+  if (volumeSlider) {
     volumeSlider.value = video.volume;
     volumeSlider.addEventListener("input", function () {
       video.volume = this.value;
     });
   }
 
+  // Set repeatsLeft when the input changes
   if (repeatInput) {
+    repeatsLeft = Math.max(0, parseInt(repeatInput.value, 10) || 0);
+    updateRepeatsLeftDisplay();
     repeatInput.addEventListener("input", function () {
-      repeatTotal = Math.max(0, parseInt(this.value, 10) || 0);
-      playCount = 0; // Reset play count when user changes repeat value
+      repeatsLeft = Math.max(0, parseInt(this.value, 10) || 0);
+      updateRepeatsLeftDisplay();
     });
   }
 
+  // Set repeatsLeft when a new movie is loaded (i.e., when showSingleMovie is called)
+  repeatsLeft = Math.max(
+    0,
+    parseInt(repeatInput ? repeatInput.value : 0, 10) || 0
+  );
+  updateRepeatsLeftDisplay();
+
   if (video) {
     video.addEventListener("ended", function () {
-      playCount++;
-      if (playCount <= repeatTotal) {
-        // play again if not exceeded repeat count
+      if (repeatsLeft > 0) {
+        repeatsLeft--;
+        updateRepeatsLeftDisplay();
         video.currentTime = 0;
         video.play();
       } else {
-        playCount = 0; // Reset for next time
+        updateRepeatsLeftDisplay();
       }
     });
   }
