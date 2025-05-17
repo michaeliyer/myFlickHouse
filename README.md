@@ -1,1 +1,1 @@
-Thge Coolest deal ever
+The Coolest deal ever
