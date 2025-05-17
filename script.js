@@ -15,6 +15,21 @@ const movies = [
 let isSingleView = false;
 let currentMovie = null;
 
+// Define emoji mapping for genres
+const genreEmojis = {
+  Drama: "🎭",
+  Comedy: "😂",
+  Horror: "👻",
+  BlackComedy: "🤣",
+  ActionAdventure: "🏴‍☠️",
+  MysterySuspense: "🔍",
+  Music: "🎵",
+  Phish: "🎸",
+  Western: "🤠",
+  Thriller: "🔪",
+  FrankyFiles: "📽️",
+};
+
 // Function to populate genre dropdown
 function populateGenreDropdown() {
   const genreSelect = document.getElementById("genreSelect");
@@ -23,7 +38,8 @@ function populateGenreDropdown() {
   genres.forEach((genre) => {
     const option = document.createElement("option");
     option.value = genre;
-    option.textContent = genre;
+    const emoji = genreEmojis[genre] || "🎬";
+    option.textContent = `${emoji} ${genre}`;
     genreSelect.appendChild(option);
   });
 }
