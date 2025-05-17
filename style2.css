@@ -83,10 +83,9 @@ button:hover {
 }
 
 #movieList {
-  display: grid;
   /* grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); */
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  gap: 0px;
   justify-content: center;
   align-items: start;
   margin: 40px auto 0 auto;
@@ -107,13 +106,15 @@ button:hover {
   text-align: center;
   opacity: 0.85;
   transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+  margin: 20px;
 }
 
 .movie-card:hover {
   transform: translateY(-6px) scale(1.05);
   box-shadow: 0 8px 32px #0007;
-  opacity: 0.25;
-  background-color: rgb(103, 14, 41);
+  opacity: 0.75;
+  background-color: rgb(131, 11, 11);
+  color: rgb(181, 27, 27);
 }
 
 .movie-poster {
