@@ -10,6 +10,12 @@ const movies = [
   ...flicksMysterySuspense,
   ...flicksActionAdventure,
   ...flicksFranky,
+  ...flicksShows,
+  ...flicksSports,
+  ...flicksHindu,
+  ...flicksCrimeDrama,
+  ...flicksActionComedy,
+  ...flicksRandos,
 ];
 
 let isSingleView = false;
@@ -28,6 +34,12 @@ const genreEmojis = {
   Western: "🤠",
   Thriller: "🔪",
   FrankyFiles: "📽️",
+  Shows: "📺",
+  Sports: "🏈",
+  Hindu: "🕉️",
+  CrimeDrama: "👮‍♂️",
+  ActionComedy: "🤡",
+  Randos: "👀",
 };
 
 // Function to populate genre dropdown

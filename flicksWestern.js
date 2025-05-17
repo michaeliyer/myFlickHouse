@@ -89,5 +89,4 @@ const flicksWestern = [
     downloadUrl:
       "https://www.dropbox.com/scl/fi/zhz0k0esxn5aabpvx9nvt/UNFORGIVEN.mp4?rlkey=mn9r4lew7znsquvhdatd4zhwh&dl=1",
   },
-]
-
+];
