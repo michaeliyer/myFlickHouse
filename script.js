@@ -8,6 +8,8 @@ const movies = [
   ...flicksPhish,
   ...flicksWestern,
   ...flicksMysterySuspense,
+  ...flicksActionAdventure,
+  ...flicksFranky,
 ];
 
 let isSingleView = false;
