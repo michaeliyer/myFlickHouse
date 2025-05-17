@@ -126,6 +126,10 @@ function showSingleMovie(movieTitle) {
       <label for="volumeSlider">Volume:</label>
       <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
     </div>
+    <div class="repeat-control">
+      <label for="repeatCount">Repeat:</label>
+      <input type="number" id="repeatCount" min="0" value="0" style="width: 60px;">
+    </div>
     <div class="movie-actions">
       <a href="${
         movie.downloadUrl
@@ -138,10 +142,34 @@ function showSingleMovie(movieTitle) {
   // Set up custom volume slider
   const video = document.getElementById("moviePlayer");
   const volumeSlider = document.getElementById("volumeSlider");
+  const repeatInput = document.getElementById("repeatCount");
+  let playCount = 0;
+  let repeatTotal = 0; // number of repeats after first play
+
   if (video && volumeSlider) {
     volumeSlider.value = video.volume;
     volumeSlider.addEventListener("input", function () {
       video.volume = this.value;
+    });
+  }
+
+  if (repeatInput) {
+    repeatInput.addEventListener("input", function () {
+      repeatTotal = Math.max(0, parseInt(this.value, 10) || 0);
+      playCount = 0; // Reset play count when user changes repeat value
+    });
+  }
+
+  if (video) {
+    video.addEventListener("ended", function () {
+      playCount++;
+      if (playCount <= repeatTotal) {
+        // play again if not exceeded repeat count
+        video.currentTime = 0;
+        video.play();
+      } else {
+        playCount = 0; // Reset for next time
+      }
     });
   }
 }
