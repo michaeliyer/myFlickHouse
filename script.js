@@ -32,6 +32,7 @@ function clearFilters() {
   document.getElementById("searchInput").value = "";
   document.getElementById("keywordInput").value = "";
   document.getElementById("yearInput").value = "";
+  document.getElementById("refInput").value = "";
   document.getElementById("genreSelect").value = "";
   document.getElementById("movieList").style.display = "none";
 }
@@ -40,8 +41,14 @@ function renderMovies(filters = {}) {
   const list = document.getElementById("movieList");
   list.innerHTML = "";
 
-  const filtered = movies
-    .filter((movie) => {
+  let filtered = movies;
+  // If ref is filled, filter by ref (exact match, number)
+  if (filters.ref) {
+    filtered = filtered.filter(
+      (movie) => String(movie.ref) === String(filters.ref)
+    );
+  } else {
+    filtered = filtered.filter((movie) => {
       const titleMatch = movie.title
         .toLowerCase()
         .includes((filters.title || "").toLowerCase());
@@ -60,8 +67,9 @@ function renderMovies(filters = {}) {
         filters.genre === "all" ||
         movie.genre === filters.genre;
       return titleMatch && keywordMatch && yearMatch && genreMatch;
-    })
-    .sort((a, b) => a.title.localeCompare(b.title)); // Sort movies alphabetically by title
+    });
+  }
+  filtered = filtered.sort((a, b) => a.title.localeCompare(b.title));
 
   if (filtered.length === 0) {
     list.innerHTML = "<p>No movies found.</p>";
@@ -74,8 +82,12 @@ function renderMovies(filters = {}) {
     div.className = "movie-card";
     div.innerHTML = `
       <h3>${movie.title} (${movie.year})</h3>
-      <p><strong>Genre:</strong> ${movie.genre}</p>
-      <button class="view-movie" data-movie-id="${movie.title}">View Movie</button>
+      <p><strong>Genre:</strong> ${movie.genre} <span class="ref-num">[Ref #${
+      movie.ref || "N/A"
+    }]</span></p>
+      <button class="view-movie" data-movie-id="${
+        movie.title
+      }">View Movie</button>
     `;
     list.appendChild(div);
   });
@@ -103,7 +115,9 @@ function showSingleMovie(movieTitle) {
 
   selectedMovie.innerHTML = `
     <h2>${movie.title} (${movie.year})</h2>
-    <p><strong>Genre:</strong> ${movie.genre}</p>
+    <p><strong>Genre:</strong> ${movie.genre} <span class="ref-num">[Ref #${
+    movie.ref || "N/A"
+  }]</span></p>
     <video id="moviePlayer" width="600" controls>
       <source src="${movie.dropboxUrl}" type="video/mp4">
       Your browser does not support the video tag.
@@ -113,7 +127,9 @@ function showSingleMovie(movieTitle) {
       <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
     </div>
     <div class="movie-actions">
-      <a href="${movie.downloadUrl}" download class="download-btn">Download Movie</a>
+      <a href="${
+        movie.downloadUrl
+      }" download class="download-btn">Download Movie</a>
     </div>
   `;
 
@@ -142,6 +158,7 @@ document
   .getElementById("keywordInput")
   .addEventListener("input", updateFilters);
 document.getElementById("yearInput").addEventListener("input", updateFilters);
+document.getElementById("refInput").addEventListener("input", updateFilters);
 document
   .getElementById("genreSelect")
   .addEventListener("change", updateFilters);
@@ -153,6 +170,7 @@ function updateFilters() {
     title: document.getElementById("searchInput").value,
     keyword: document.getElementById("keywordInput").value,
     year: document.getElementById("yearInput").value,
+    ref: document.getElementById("refInput").value,
     genre: document.getElementById("genreSelect").value,
   };
   renderMovies(filters);
