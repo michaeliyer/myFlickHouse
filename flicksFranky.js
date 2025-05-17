@@ -26,4 +26,22 @@ const flicksFranky = [
     downloadUrl:
       "https://www.dropbox.com/scl/fi/uaky0rtkw29iud4brq3uq/HeadShoulderWiggles.mp4?rlkey=szkc0gyleq7fmyclmx5fakxvo&dl=1",
   },
+  {
+    title: "Big Yellow Taxi - Joni Mitchell",
+    year: 1970,
+    genre: "Franky",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/azh733gc6uwnidwe6ojeo/Joni-Mitchell-Big-Yellow-Taxi-Official-Lyric-Video-1.mp4?rlkey=l6713064blgfbtb7uqmu6cpni&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/azh733gc6uwnidwe6ojeo/Joni-Mitchell-Big-Yellow-Taxi-Official-Lyric-Video-1.mp4?rlkey=l6713064blgfbtb7uqmu6cpni&dl=1",
+  },
+  {
+    title: "Sugar Sugar - The Archies",
+    year: 1969,
+    genre: "Franky",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/mqf6redwcv5uspz782hb9/SugarSugarArchies.mp4?rlkey=oz443985nlluvly6pztsmy3zk&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/mqf6redwcv5uspz782hb9/SugarSugarArchies.mp4?rlkey=oz443985nlluvly6pztsmy3zk&dl=1",
+  },
 ];
