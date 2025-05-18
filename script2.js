@@ -18,43 +18,6 @@ const movies = [
   ...flicksRandos,
 ];
 
-const digitToWord = {
-  0: "zero",
-  1: "one",
-  2: "two",
-  3: "three",
-  4: "four",
-  5: "five",
-  6: "six",
-  7: "seven",
-  8: "eight",
-  9: "nine",
-};
-
-
-function normalizeForSearch(text) {
-  let result = text.toLowerCase();
-
-  // Expand single digits by adding word form after
-  for (const [digit, word] of Object.entries(digitToWord)) {
-    result = result.replace(new RegExp(`${digit}`, 'g'), `${digit} ${word}`);
-  }
-
-  // Expand number words by adding digit form after
-  for (const [word, digit] of Object.entries(wordToDigit)) {
-    result = result.replace(new RegExp(`\\b${word}\\b`, 'g'), `${word} ${digit}`);
-  }
-
-  return result;
-}
-
-
-
-
-const wordToDigit = Object.fromEntries(
-  Object.entries(digitToWord).map(([d, w]) => [w, d])
-);
-
 let isSingleView = false;
 let currentMovie = null;
 
@@ -80,48 +43,17 @@ const genreEmojis = {
 };
 
 // Function to populate genre dropdown
-// function populateGenreDropdown() {
-//   const genreSelect = document.getElementById("genreSelect");
-//   const genres = [...new Set(movies.map((movie) => movie.genre))].sort();
-
-//   genres.forEach((genre) => {
-//     const option = document.createElement("option");
-//     option.value = genre;
-//     const emoji = genreEmojis[genre] || "🎬";
-//     option.textContent = `${emoji} ${genre}`;
-//     genreSelect.appendChild(option);
-//   });
-// }
 function populateGenreDropdown() {
   const genreSelect = document.getElementById("genreSelect");
-  genreSelect.innerHTML = ""; // Clear existing options
+  const genres = [...new Set(movies.map((movie) => movie.genre))].sort();
 
-  const counts = {};
-
-  // Count genres
-  movies.forEach(movie => {
-    const genre = movie.genre;
-    counts[genre] = (counts[genre] || 0) + 1;
+  genres.forEach((genre) => {
+    const option = document.createElement("option");
+    option.value = genre;
+    const emoji = genreEmojis[genre] || "🎬";
+    option.textContent = `${emoji} ${genre}`;
+    genreSelect.appendChild(option);
   });
-
-  // Total count
-  const total = movies.length;
-
-  // Create "All Titles" option
-  const allOption = document.createElement("option");
-  allOption.value = "";
-  allOption.textContent = `All Titles (${total})`;
-  genreSelect.appendChild(allOption);
-
-  // Create options for each genre (sorted)
-  Object.entries(counts)
-    .sort(([a], [b]) => a.localeCompare(b))
-    .forEach(([genre, count]) => {
-      const option = document.createElement("option");
-      option.value = genre;
-      option.textContent = `${genre} (${count})`;
-      genreSelect.appendChild(option);
-    });
 }
 
 function clearFilters() {
@@ -154,21 +86,12 @@ function renderMovies(filters = {}) {
         .toLowerCase()
         .includes((filters.title || "").toLowerCase());
       // Multi-word keyword search: all words must be present in title or genre
-      //   const keywordInput = (filters.keyword || "").toLowerCase().trim();
-      //   const keywordWords = keywordInput.split(/\s+/).filter(Boolean);
-      //   const keywordMatch = keywordWords.every(
-      //     (word) =>
-      //       movie.title.toLowerCase().includes(word) ||
-      //       movie.genre.toLowerCase().includes(word)
-      //   );
-      const normalizedTitle = normalizeForSearch(movie.title);
-      const normalizedGenre = normalizeForSearch(movie.genre);
-      const keywordInput = normalizeForSearch(filters.keyword || "");
+      const keywordInput = (filters.keyword || "").toLowerCase().trim();
       const keywordWords = keywordInput.split(/\s+/).filter(Boolean);
-
       const keywordMatch = keywordWords.every(
         (word) =>
-          normalizedTitle.includes(word) || normalizedGenre.includes(word)
+          movie.title.toLowerCase().includes(word) ||
+          movie.genre.toLowerCase().includes(word)
       );
       const yearMatch = !filters.year || movie.year === parseInt(filters.year);
       // Treat 'all' as no genre filter
@@ -193,14 +116,14 @@ function renderMovies(filters = {}) {
     const div = document.createElement("div");
     div.className = "movie-card";
     div.innerHTML = `
-        <h3>${movie.title} (${movie.year})</h3>
-        <p><strong>Genre:</strong> ${movie.genre} <span class="ref-num">[Ref #${
+      <h3>${movie.title} (${movie.year})</h3>
+      <p><strong>Genre:</strong> ${movie.genre} <span class="ref-num">[Ref #${
       movie.ref || "N/A"
     }]</span></p>
-        <button class="view-movie" data-movie-id="${
-          movie.title
-        }">View Movie</button>
-      `;
+      <button class="view-movie" data-movie-id="${
+        movie.title
+      }">View Movie</button>
+    `;
     list.appendChild(div);
   });
 
@@ -226,29 +149,29 @@ function showSingleMovie(movieTitle) {
   const selectedMovie = document.getElementById("selectedMovie");
 
   selectedMovie.innerHTML = `
-      <h2>${movie.title} (${movie.year})</h2>
-      <p><strong>Genre:</strong> ${movie.genre} <span class="ref-num">[Ref #${
+    <h2>${movie.title} (${movie.year})</h2>
+    <p><strong>Genre:</strong> ${movie.genre} <span class="ref-num">[Ref #${
     movie.ref || "N/A"
   }]</span></p>
-      <video id="moviePlayer" width="600" controls>
-        <source src="${movie.dropboxUrl}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <div class="volume-control">
-        <label for="volumeSlider">Volume:</label>
-        <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
-      </div>
-      <div class="repeat-control">
-        <label for="repeatCount">Repeat:</label>
-        <input type="number" id="repeatCount" min="0" value="0" style="width: 60px;">
-        <span id="repeatsLeft" style="margin-left:10px; color:#aaa;"></span>
-      </div>
-      <div class="movie-actions">
-        <a href="${
-          movie.downloadUrl
-        }" download class="download-btn">Download Movie</a>
-      </div>
-    `;
+    <video id="moviePlayer" width="600" controls>
+      <source src="${movie.dropboxUrl}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="volume-control">
+      <label for="volumeSlider">Volume:</label>
+      <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+    </div>
+    <div class="repeat-control">
+      <label for="repeatCount">Repeat:</label>
+      <input type="number" id="repeatCount" min="0" value="0" style="width: 60px;">
+      <span id="repeatsLeft" style="margin-left:10px; color:#aaa;"></span>
+    </div>
+    <div class="movie-actions">
+      <a href="${
+        movie.downloadUrl
+      }" download class="download-btn">Download Movie</a>
+    </div>
+  `;
 
   singleView.style.display = "block";
 
