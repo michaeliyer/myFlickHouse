@@ -31,25 +31,24 @@ const digitToWord = {
   9: "nine",
 };
 
-
 function normalizeForSearch(text) {
   let result = text.toLowerCase();
 
   // Expand single digits by adding word form after
   for (const [digit, word] of Object.entries(digitToWord)) {
-    result = result.replace(new RegExp(`${digit}`, 'g'), `${digit} ${word}`);
+    result = result.replace(new RegExp(`${digit}`, "g"), `${digit} ${word}`);
   }
 
   // Expand number words by adding digit form after
   for (const [word, digit] of Object.entries(wordToDigit)) {
-    result = result.replace(new RegExp(`\\b${word}\\b`, 'g'), `${word} ${digit}`);
+    result = result.replace(
+      new RegExp(`\\b${word}\\b`, "g"),
+      `${word} ${digit}`
+    );
   }
 
   return result;
 }
-
-
-
 
 const wordToDigit = Object.fromEntries(
   Object.entries(digitToWord).map(([d, w]) => [w, d])
@@ -96,10 +95,18 @@ function populateGenreDropdown() {
   const genreSelect = document.getElementById("genreSelect");
   genreSelect.innerHTML = ""; // Clear existing options
 
+  // Add default "Choose Genre" option
+  const defaultOption = document.createElement("option");
+  defaultOption.value = "";
+  defaultOption.disabled = true;
+  defaultOption.selected = true;
+  defaultOption.textContent = "Choose Genre";
+  genreSelect.appendChild(defaultOption);
+
   const counts = {};
 
   // Count genres
-  movies.forEach(movie => {
+  movies.forEach((movie) => {
     const genre = movie.genre;
     counts[genre] = (counts[genre] || 0) + 1;
   });
@@ -109,8 +116,8 @@ function populateGenreDropdown() {
 
   // Create "All Titles" option
   const allOption = document.createElement("option");
-  allOption.value = "";
-  allOption.textContent = `All Titles (${total})`;
+  allOption.value = "all";
+  allOption.textContent = `🎥All Titles📽️ (${total})`;
   genreSelect.appendChild(allOption);
 
   // Create options for each genre (sorted)
