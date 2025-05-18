@@ -65,6 +65,11 @@ function clearFilters() {
   document.getElementById("movieList").style.display = "none";
 }
 
+// Helper function to get sort title (removes leading "The ")
+function getSortTitle(title) {
+  return title.replace(/^The\s+/i, "");
+}
+
 function renderMovies(filters = {}) {
   const list = document.getElementById("movieList");
   list.innerHTML = "";
@@ -97,7 +102,9 @@ function renderMovies(filters = {}) {
       return titleMatch && keywordMatch && yearMatch && genreMatch;
     });
   }
-  filtered = filtered.sort((a, b) => a.title.localeCompare(b.title));
+  filtered = filtered.sort((a, b) =>
+    getSortTitle(a.title).localeCompare(getSortTitle(b.title))
+  );
 
   if (filtered.length === 0) {
     list.innerHTML = "<p>No movies found.</p>";

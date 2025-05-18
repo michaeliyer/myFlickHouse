@@ -92,7 +92,7 @@ const flicksDrama = [
   },
   {
     ref: 10,
-    title: "Chocolat",
+    title: "Chocolat - African Version",
     year: 1988,
     genre: "Drama",
     dropboxUrl:

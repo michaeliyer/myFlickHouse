@@ -181,6 +181,15 @@ const flicksComedy = [
       "https://www.dropbox.com/scl/fi/hfljrt995t5qplf2g7gc4/CHRISTMAS_VACATION.mp4?rlkey=rkhobb0pfy0nxbyab0ser4a2q&dl=1",
   },
   {
+    title: "Chocolat - French Version",
+    year: 2000,
+    genre: "Comedy", // or update to your preferred genre
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/ip3ufidimx0i2odeit1qx/CHOCOLAT.mp4?rlkey=7wj3klyu9o2krhrydoh4vrh4s&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/ip3ufidimx0i2odeit1qx/CHOCOLAT.mp4?rlkey=7wj3klyu9o2krhrydoh4vrh4s&dl=1",
+  },
+  {
     title: "The Curse Of The Pink Panther",
     year: 1983,
     genre: "Comedy",
