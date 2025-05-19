@@ -158,9 +158,12 @@ function renderMovies(filters = {}) {
     );
   } else {
     filtered = filtered.filter((movie) => {
-      const titleMatch = movie.title
-        .toLowerCase()
-        .includes((filters.title || "").toLowerCase());
+      const titleMatch =
+        !filters.title ||
+        movie.title
+          .toLowerCase()
+          .split(/\s+/)[0]
+          .startsWith((filters.title || "").toLowerCase());
       // Multi-word keyword search: all words must be present in title or genre
       //   const keywordInput = (filters.keyword || "").toLowerCase().trim();
       //   const keywordWords = keywordInput.split(/\s+/).filter(Boolean);
