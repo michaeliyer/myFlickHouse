@@ -3,6 +3,7 @@ const flicksActionAdventure = [
     title: "Apocalypse Now",
     year: 1979,
     genre: "Action Adventure",
+    collection: "Kookie Flicks",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/zvara56xrmcnnymh3cpqg/APOCALYPSE_NOW.mp4?rlkey=2gkrun4hvz21ynx4ey8nmfptc&raw=1",
     downloadUrl:
@@ -12,6 +13,7 @@ const flicksActionAdventure = [
     title: "Apocalypto",
     year: 2006,
     genre: "Action Adventure",
+    collection: "Kookie Flicks",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/a7xjwfjc6mcy9qszs7n3q/APOCALYPTO.mp4?rlkey=pu9of0arb8jdgy2uiiqm4ccez&raw=1",
     downloadUrl:
