@@ -16,6 +16,7 @@ const movies = [
   ...flicksCrimeDrama,
   ...flicksActionComedy,
   ...flicksRandos,
+  ...flicksDocumentary,
 ];
 
 const digitToWord = {
@@ -177,7 +178,11 @@ function renderMovies(filters = {}) {
         (word) =>
           normalizedTitle.includes(word) || normalizedGenre.includes(word)
       );
-      const yearMatch = !filters.year || movie.year === parseInt(filters.year);
+      const yearMatch =
+        !filters.year ||
+        (filters.year.toLowerCase() === "null"
+          ? !movie.year
+          : movie.year === parseInt(filters.year));
       // Treat 'all' as no genre filter
       const genreMatch =
         !filters.genre ||
