@@ -79,19 +79,7 @@ const genreEmojis = {
   Randos: "👀",
 };
 
-// Function to populate genre dropdown
-// function populateGenreDropdown() {
-//   const genreSelect = document.getElementById("genreSelect");
-//   const genres = [...new Set(movies.map((movie) => movie.genre))].sort();
 
-//   genres.forEach((genre) => {
-//     const option = document.createElement("option");
-//     option.value = genre;
-//     const emoji = genreEmojis[genre] || "🎬";
-//     option.textContent = `${emoji} ${genre}`;
-//     genreSelect.appendChild(option);
-//   });
-// }
 function populateGenreDropdown() {
   const genreSelect = document.getElementById("genreSelect");
   genreSelect.innerHTML = ""; // Clear existing options
