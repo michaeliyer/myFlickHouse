@@ -38,7 +38,8 @@ h1 {
   align-items: center;
   gap: 10px;
   margin-bottom: 20px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
   position: relative;
   z-index: 1;
 }

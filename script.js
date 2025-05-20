@@ -5,7 +5,6 @@ const movies = [
   ...flicksDrama,
   ...flicksComedy,
   ...flicksMusic,
-  ...flicksPhish,
   ...flicksWestern,
   ...flicksMysterySuspense,
   ...flicksActionAdventure,
@@ -78,7 +77,6 @@ const genreEmojis = {
   ActionComedy: "🤡",
   Randos: "👀",
 };
-
 
 function populateGenreDropdown() {
   const genreSelect = document.getElementById("genreSelect");

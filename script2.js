@@ -5,7 +5,6 @@ const movies = [
   ...flicksDrama,
   ...flicksComedy,
   ...flicksMusic,
-  ...flicksPhish,
   ...flicksWestern,
   ...flicksMysterySuspense,
   ...flicksActionAdventure,
@@ -18,6 +17,13 @@ const movies = [
   ...flicksRandos,
   ...flicksDocumentary,
 ];
+
+// Ensure all movies have a collection property
+movies.forEach((movie) => {
+  if (!movie.hasOwnProperty("collection")) {
+    movie.collection = null;
+  }
+});
 
 const digitToWord = {
   0: "zero",
@@ -57,6 +63,8 @@ const wordToDigit = Object.fromEntries(
 
 let isSingleView = false;
 let currentMovie = null;
+let currentCollection = null;
+let currentGenre = null;
 
 // Define emoji mapping for genres
 const genreEmojis = {
@@ -124,7 +132,7 @@ function populateCollectionDropdown() {
   const collectionSelect = document.getElementById("collectionSelect");
   collectionSelect.innerHTML = ""; // Clear existing options
 
-  // Add default option
+  // Add default "Choose Collection" option
   const defaultOption = document.createElement("option");
   defaultOption.value = "";
   defaultOption.disabled = true;
@@ -152,45 +160,73 @@ function populateCollectionDropdown() {
   });
 }
 
-function clearFilters() {
-  document.getElementById("searchInput").value = "";
-  document.getElementById("keywordInput").value = "";
-  document.getElementById("yearInput").value = "";
-  document.getElementById("refInput").value = "";
-  document.getElementById("genreSelect").value = "";
-  document.getElementById("movieList").style.display = "none";
+function handleCollectionChange(event) {
+  const collectionSelect = document.getElementById("collectionSelect");
+  const genreSelect = document.getElementById("genreSelect");
+
+  // Reset genre when collection changes
+  genreSelect.value = "";
+  currentGenre = null;
+
+  currentCollection = collectionSelect.value;
+  applyFilters();
 }
 
-// Helper function to get sort title (removes leading "The ")
-function getSortTitle(title) {
-  return title.replace(/^The\s+/i, "");
+function handleGenreChange(event) {
+  const genreSelect = document.getElementById("genreSelect");
+  const collectionSelect = document.getElementById("collectionSelect");
+
+  // Reset collection when genre changes
+  collectionSelect.value = "";
+  currentCollection = null;
+
+  currentGenre = genreSelect.value;
+  applyFilters();
 }
 
-function renderMovies(filters = {}) {
+function applyFilters() {
   const list = document.getElementById("movieList");
   list.innerHTML = "";
 
   let filtered = movies;
 
-  // If ref is filled, filter by ref (exact match, number)
-  if (filters.ref) {
+  // Apply either collection OR genre filter, not both
+  if (currentCollection) {
+    if (currentCollection === "null") {
+      filtered = filtered.filter((movie) => movie.collection === null);
+    } else {
+      filtered = filtered.filter(
+        (movie) => movie.collection === currentCollection
+      );
+    }
+  } else if (currentGenre && currentGenre !== "all") {
+    filtered = filtered.filter((movie) => movie.genre === currentGenre);
+  }
+
+  // Apply other filters
+  const titleFilter = document.getElementById("searchInput").value;
+  const keywordFilter = document.getElementById("keywordInput").value;
+  const yearFilter = document.getElementById("yearInput").value;
+  const refFilter = document.getElementById("refInput").value;
+
+  if (refFilter) {
     filtered = filtered.filter(
-      (movie) => String(movie.ref) === String(filters.ref)
+      (movie) => String(movie.ref) === String(refFilter)
     );
   } else {
     filtered = filtered.filter((movie) => {
-      // Title match (first word only)
+      // Title match
       const titleMatch =
-        !filters.title ||
+        !titleFilter ||
         movie.title
           .toLowerCase()
           .split(/\s+/)[0]
-          .startsWith((filters.title || "").toLowerCase());
+          .startsWith(titleFilter.toLowerCase());
 
       // Keyword match
       const normalizedTitle = normalizeForSearch(movie.title);
       const normalizedGenre = normalizeForSearch(movie.genre);
-      const keywordInput = normalizeForSearch(filters.keyword || "");
+      const keywordInput = normalizeForSearch(keywordFilter || "");
       const keywordWords = keywordInput.split(/\s+/).filter(Boolean);
       const keywordMatch = keywordWords.every(
         (word) =>
@@ -199,30 +235,12 @@ function renderMovies(filters = {}) {
 
       // Year match
       const yearMatch =
-        !filters.year ||
-        (filters.year.toLowerCase() === "null"
+        !yearFilter ||
+        (yearFilter.toLowerCase() === "null"
           ? !movie.year
-          : movie.year === parseInt(filters.year));
+          : movie.year === parseInt(yearFilter));
 
-      // Genre match
-      const genreMatch =
-        !filters.genre ||
-        filters.genre === "all" ||
-        movie.genre === filters.genre;
-
-      // Collection match
-      let collectionMatch = true;
-      if (filters.collection) {
-        if (filters.collection === "null") {
-          collectionMatch = !movie.collection;
-        } else {
-          collectionMatch = movie.collection === filters.collection;
-        }
-      }
-
-      return (
-        titleMatch && keywordMatch && yearMatch && genreMatch && collectionMatch
-      );
+      return titleMatch && keywordMatch && yearMatch;
     });
   }
 
@@ -259,6 +277,23 @@ function renderMovies(filters = {}) {
       showSingleMovie(movieTitle);
     });
   });
+}
+
+function clearFilters() {
+  document.getElementById("searchInput").value = "";
+  document.getElementById("keywordInput").value = "";
+  document.getElementById("yearInput").value = "";
+  document.getElementById("refInput").value = "";
+  document.getElementById("genreSelect").value = "";
+  document.getElementById("collectionSelect").value = "";
+  currentCollection = null;
+  currentGenre = null;
+  document.getElementById("movieList").style.display = "none";
+}
+
+// Helper function to get sort title (removes leading "The ")
+function getSortTitle(title) {
+  return title.replace(/^The\s+/i, "");
 }
 
 function showSingleMovie(movieTitle) {
@@ -354,33 +389,19 @@ function showMovieList() {
   currentMovie = null;
 }
 
-// Event Listeners
-document.getElementById("searchInput").addEventListener("input", updateFilters);
-document
-  .getElementById("keywordInput")
-  .addEventListener("input", updateFilters);
-document.getElementById("yearInput").addEventListener("input", updateFilters);
-document.getElementById("refInput").addEventListener("input", updateFilters);
+// Update event listeners
+document.getElementById("searchInput").addEventListener("input", applyFilters);
+document.getElementById("keywordInput").addEventListener("input", applyFilters);
+document.getElementById("yearInput").addEventListener("input", applyFilters);
+document.getElementById("refInput").addEventListener("input", applyFilters);
 document
   .getElementById("genreSelect")
-  .addEventListener("change", updateFilters);
-document.getElementById("backToList").addEventListener("click", showMovieList);
-document.getElementById("clearButton").addEventListener("click", clearFilters);
+  .addEventListener("change", handleGenreChange);
 document
   .getElementById("collectionSelect")
-  .addEventListener("change", updateFilters);
-
-function updateFilters() {
-  const filters = {
-    title: document.getElementById("searchInput").value,
-    keyword: document.getElementById("keywordInput").value,
-    year: document.getElementById("yearInput").value,
-    ref: document.getElementById("refInput").value,
-    genre: document.getElementById("genreSelect").value,
-    collection: document.getElementById("collectionSelect").value,
-  };
-  renderMovies(filters);
-}
+  .addEventListener("change", handleCollectionChange);
+document.getElementById("backToList").addEventListener("click", showMovieList);
+document.getElementById("clearButton").addEventListener("click", clearFilters);
 
 // Initialize the page
 document.getElementById("movieList").style.display = "none";
