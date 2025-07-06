@@ -378,6 +378,17 @@ const flicksBlackComedy = [
   },
   {
     ref: null,
+    title: "The Grifters",
+    year: 1990,
+    genre: "Black Comedy",
+    collection: null,
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/vn7izepda8pxpsk7wym92/The-Grifters-1990-Eng-DVDrip.mp4?rlkey=rm8ldkk67fzhnm249xobtbeif&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/vn7izepda8pxpsk7wym92/The-Grifters-1990-Eng-DVDrip.mp4?rlkey=rm8ldkk67fzhnm249xobtbeif&dl=1",
+  },
+  {
+    ref: null,
     title: "Grosse Pointe Blank",
     year: 1997,
     genre: "Black Comedy",
