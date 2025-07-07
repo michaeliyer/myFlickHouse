@@ -126,7 +126,7 @@ const flicksDrama = [
     title: "Citizen Kane",
     year: 1941,
     genre: "Drama",
-    collection: null,
+    collection: "Orson Welles",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/6r0ze4itcwzyqsc9wz7im/CITIZEN_KANE.mp4?rlkey=1qe5nnd4i29di22xjahbtga6m&raw=1",
     downloadUrl:
@@ -450,6 +450,17 @@ const flicksDrama = [
       "https://www.dropbox.com/scl/fi/q2exp6hrbaotknz43fe8c/LOST_WEEKEND.mp4?raw=1",
     downloadUrl:
       "https://www.dropbox.com/scl/fi/q2exp6hrbaotknz43fe8c/LOST_WEEKEND.mp4?dl=1",
+  },
+  {
+    ref: null,
+    title: "The Magnificent Ambersons",
+    year: 1942,
+    genre: "Drama",
+    collection: "Orson Welles",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/e39hof1y5iuoca2eja4sx/The.Magnificent.Ambersons.mp4?rlkey=xh7c0xlk43jxck87sycr12hd3&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/e39hof1y5iuoca2eja4sx/The.Magnificent.Ambersons.mp4?rlkey=xh7c0xlk43jxck87sycr12hd3&dl=0",
   },
   {
     ref: 42,
