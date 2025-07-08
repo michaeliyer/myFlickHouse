@@ -1125,9 +1125,9 @@ const flicksHorror = [
     genre: "Horror",
     collection: null,
     dropboxUrl:
-      "https://www.dropbox.com/scl/fi/tcfsbfgiu4v11kao90a5v/WOLF.mp4?rlkey=2sihnc1889o0ozzs6msnrezc9&raw=1",
+      "https://www.dropbox.com/scl/fi/wl5si48aeg56e0blvzqmz/WOLF-handBrake.mp4?rlkey=jbrwwsfggq1hbmo1n8g1nk3fd&raw=1",
     downloadUrl:
-      "https://www.dropbox.com/scl/fi/tcfsbfgiu4v11kao90a5v/WOLF.mp4?rlkey=2sihnc1889o0ozzs6msnrezc9&dl=1",
+      "https://www.dropbox.com/scl/fi/wl5si48aeg56e0blvzqmz/WOLF-handBrake.mp4?rlkey=jbrwwsfggq1hbmo1n8g1nk3fd&dl=0",
   },
   {
     ref: null,

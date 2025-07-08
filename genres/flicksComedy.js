@@ -509,6 +509,17 @@ const flicksComedy = [
   },
   {
     ref: null,
+    title: "Reality Bites",
+    year: 1994,
+    genre: "Comedy",
+    collection: null,
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/cmr2j2xmvc6ndmawnr22b/Reality.Bites.mp4?rlkey=m23fcd8o35l85f6s0guksibj2&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/cmr2j2xmvc6ndmawnr22b/Reality.Bites.mp4?rlkey=m23fcd8o35l85f6s0guksibj2&dl=0",
+  },
+  {
+    ref: null,
     title: "Revenge of the Pink Panther",
     year: 1978,
     genre: "Comedy",
