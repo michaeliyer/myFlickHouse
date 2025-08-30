@@ -28,9 +28,9 @@ const flicksFranky = [
     genre: "FrankyFiles",
     collection: null,
     dropboxUrl:
-      "https://www.dropbox.com/scl/fi/uaky0rtkw29iud4brq3uq/HeadShoulderWiggles.mp4?rlkey=szkc0gyleq7fmyclmx5fakxvo&raw=1",
+      "https://www.dropbox.com/scl/fi/ukrgn86glaso9kledjmm9/WheelsOnBusCocoMelon.mp4?rlkey=9dybikqaih26azct54du8bie6&raw=1",
     downloadUrl:
-      "https://www.dropbox.com/scl/fi/uaky0rtkw29iud4brq3uq/HeadShoulderWiggles.mp4?rlkey=szkc0gyleq7fmyclmx5fakxvo&dl=1",
+      "https://www.dropbox.com/scl/fi/ukrgn86glaso9kledjmm9/WheelsOnBusCocoMelon.mp4?rlkey=9dybikqaih26azct54du8bie6&dl=0",
   },
   {
     ref: null,
