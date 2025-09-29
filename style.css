@@ -338,19 +338,57 @@ h1 {
   width: 100%;
 }
 
-/* Adjustments for mobile */
+/* Adjustments for tablet and mobile */
+@media (max-width: 1024px) {
+  .search-container {
+    width: calc(100% - 20px);
+    top: 60px;
+    padding: 12px;
+  }
+
+  h1 {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 11;
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 8px;
+  }
+
+  #movieList {
+    margin: 140px auto 0 auto;
+    width: 60%;
+  }
+}
+
 @media (max-width: 600px) {
   .search-container {
     grid-template-columns: 1fr;
-    padding: 12px 8px;
+    width: calc(100% - 16px);
+    top: 50px;
+    padding: 8px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
   }
 
   #movieList {
     grid-template-columns: 1fr;
+    margin: 120px auto 0 auto;
+    width: 90%;
   }
 
   h1 {
-    font-size: 1.2rem;
-    padding: 8px;
+    position: fixed;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 11;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 5px;
   }
 }
