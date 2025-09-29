@@ -221,10 +221,17 @@ video {
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 12px;
   padding: 16px;
-  background-color: #1e1e1e;
+  background-color: transparent;
   border-radius: 8px;
   margin-bottom: 20px;
   box-sizing: border-box;
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: calc(100% - 40px);
+  max-width: 1160px;
 }
 
 /* Inputs, selects, and buttons styling */
@@ -267,7 +274,7 @@ video {
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 16px;
   width: 40%;
-  margin: 0 auto;
+  margin: 160px auto 0 auto;
   padding: 0;
   background-color: rgba(0, 0, 0, 0) !important;
   background: rgba(0, 0, 0, 0) !important;
@@ -321,8 +328,14 @@ h1 {
   font-size: 1.5rem;
   text-align: center;
   padding: 12px;
-  margin: 0;
+  margin: 0 0 0 0;
   color: #ffffff;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 11;
+  width: 100%;
 }
 
 /* Adjustments for mobile */
