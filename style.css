@@ -166,6 +166,10 @@ button:hover {
   border: 1px solid #23283a;
   position: relative;
   z-index: 2;
+  margin-top: 160px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #backToList {
@@ -173,6 +177,13 @@ button:hover {
   background-color: #23283a;
   color: #3a7afe;
   border: 1px solid #3a7afe;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+  z-index: 100;
+  display: inline-block;
 }
 
 #backToList:hover {

@@ -385,8 +385,16 @@ function showSingleMovie(movieTitle) {
 
 function showMovieList() {
   document.getElementById("singleMovieView").style.display = "none";
-  document.getElementById("movieList").style.display = "block";
+  document.getElementById("movieList").style.display = "grid";
   currentMovie = null;
+
+  // Clear all filters
+  clearFilters();
+
+  // Show all movies by setting genre to "all" and applying filters
+  currentGenre = "all";
+  document.getElementById("genreSelect").value = "all";
+  applyFilters();
 }
 
 // Update event listeners
