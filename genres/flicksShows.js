@@ -15,7 +15,7 @@ const flicksShows = [
     title: "Chris Rock: Bring the Pain",
     year: 1996,
     genre: "Shows",
-    collection: null,
+    collection: "Standup",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/82i778uwplrt2ddizgbyy/CHRIS_ROCK_BringThePain.mp4?rlkey=ymgbb3i0lx852e4x3ju1sh2it&raw=1",
     downloadUrl:
@@ -26,7 +26,7 @@ const flicksShows = [
     title: "Chris Rock: Never Scared",
     year: 2004,
     genre: "Shows",
-    collection: null,
+    collection: "Standup",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/8vh1oav9069kbumvdj2y4/CHRIS_ROCK_NeverScared.mp4?rlkey=1jk6x5epz0glfl8wwzf318dqd&raw=1",
     downloadUrl:
@@ -103,7 +103,7 @@ const flicksShows = [
     title: "Sarah Silverman: Jesus is Magic",
     year: 2005,
     genre: "Shows",
-    collection: null,
+    collection: "Standup",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/yz18ytafbnmttlnv70wws/SARAH_SILVERMAN_JESUS.mp4?rlkey=c8z5o2o20rbu9bg5z9ynjnx8v&raw=1",
     downloadUrl:
@@ -133,17 +133,6 @@ const flicksShows = [
   },
   {
     ref: 561,
-    title: "Will Ferrell SNL 2",
-    year: null,
-    genre: "Shows",
-    collection: null,
-    dropboxUrl:
-      "https://www.dropbox.com/scl/fi/flu4jl9vgigeg1y6hchz5/WILL_FERRELL_SNL2.mp4?rlkey=zmjxy0wxyqk9b4kx2yvdze6y8&raw=1",
-    downloadUrl:
-      "https://www.dropbox.com/scl/fi/flu4jl9vgigeg1y6hchz5/WILL_FERRELL_SNL2.mp4?rlkey=zmjxy0wxyqk9b4kx2yvdze6y8&dl=1",
-  },
-  {
-    ref: 562,
     title: "True Detective - S1 Episodes 7–8",
     year: 2014,
     genre: "Shows",
@@ -154,11 +143,22 @@ const flicksShows = [
       "https://www.dropbox.com/scl/fi/hxx6a944c7kznwb2eua9h/TRUE_DETECTIVE_S1_7-8.mp4?rlkey=iqjt8l4jnzk2q1rock3gaafqw&dl=1",
   },
   {
+    ref: 562,
+    title: "Will Ferrell SNL 2",
+    year: 2002,
+    genre: "Shows",
+    collection: "Standup",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/flu4jl9vgigeg1y6hchz5/WILL_FERRELL_SNL2.mp4?rlkey=zmjxy0wxyqk9b4kx2yvdze6y8&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/flu4jl9vgigeg1y6hchz5/WILL_FERRELL_SNL2.mp4?rlkey=zmjxy0wxyqk9b4kx2yvdze6y8&dl=1",
+  },
+  {
     ref: 563,
     title: "Will Ferrell SNL 1",
-    year: null,
+    year: 2002,
     genre: "Shows",
-    collection: null,
+    collection: "Standup",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/j0ukpszn5moj1zjc96uqh/WILL_FERRELL_SNL1.mp4?rlkey=54u8fbekrep0osupvhlp003x7&raw=1",
     downloadUrl:
