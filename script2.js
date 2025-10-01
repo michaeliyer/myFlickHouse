@@ -397,6 +397,19 @@ function showMovieList() {
   applyFilters();
 }
 
+// Toggle search container visibility
+function toggleSearchContainer() {
+  const searchContainer = document.querySelector(".search-container");
+  if (
+    searchContainer.style.display === "none" ||
+    searchContainer.style.display === ""
+  ) {
+    searchContainer.style.display = "grid";
+  } else {
+    searchContainer.style.display = "none";
+  }
+}
+
 // Update event listeners
 document.getElementById("searchInput").addEventListener("input", applyFilters);
 document.getElementById("keywordInput").addEventListener("input", applyFilters);
@@ -410,6 +423,9 @@ document
   .addEventListener("change", handleCollectionChange);
 document.getElementById("backToList").addEventListener("click", showMovieList);
 document.getElementById("clearButton").addEventListener("click", clearFilters);
+
+// Add click listener to h1 for toggling search container
+document.querySelector("h1").addEventListener("click", toggleSearchContainer);
 
 // Initialize the page
 document.getElementById("movieList").style.display = "none";

@@ -228,7 +228,7 @@ video {
 }
 /* Base layout for the search form using grid */
 .search-container {
-  display: grid;
+  display: none;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 12px;
   padding: 16px;
@@ -243,6 +243,7 @@ video {
   z-index: 10;
   width: calc(100% - 40px);
   max-width: 1160px;
+  transition: all 0.3s ease;
 }
 
 /* Inputs, selects, and buttons styling */
@@ -347,6 +348,12 @@ h1 {
   transform: translateX(-50%);
   z-index: 11;
   width: 100%;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+h1:hover {
+  color: #3a7afe;
 }
 
 /* Adjustments for tablet and mobile */
